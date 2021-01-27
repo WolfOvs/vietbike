@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="35px" viewBox="0 0 33 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Valcola3-Centrale-Verde</title>
+    <defs>
+        <linearGradient x1="0.16909131%" y1="49.8602626%" x2="99.8985862%" y2="49.8602626%" id="linearGradient-1">
+            <stop stop-color="#0B6D2D" offset="0%"></stop>
+            <stop stop-color="#80EAA5" offset="51.52%"></stop>
+            <stop stop-color="#0B6D2D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-2">
+            <stop stop-color="#0B6D2D" offset="0%"></stop>
+            <stop stop-color="#80EAA5" offset="50.2956081%"></stop>
+            <stop stop-color="#0B6D2D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.16909131%" y1="49.8602626%" x2="99.8985862%" y2="49.8602626%" id="linearGradient-3">
+            <stop stop-color="#0B6D2D" offset="0%"></stop>
+            <stop stop-color="#80EAA5" offset="50.2956081%"></stop>
+            <stop stop-color="#0B6D2D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-4">
+            <stop stop-color="#0B6D2D" offset="0%"></stop>
+            <stop stop-color="#80EAA5" offset="50.7891681%"></stop>
+            <stop stop-color="#0B6D2D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.16909131%" y1="49.8602626%" x2="98.9194009%" y2="49.8602626%" id="linearGradient-5">
+            <stop stop-color="#0B6D2D" offset="0%"></stop>
+            <stop stop-color="#80EAA5" offset="51.52%"></stop>
+            <stop stop-color="#0B6D2D" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Rectangle-Copy-33" fill="url(#linearGradient-1)" fill-rule="nonzero" points="0.5 7 17.5 7 17.5 33.5 0.5 33.5"></polygon>
+        <path d="M17.4454365,6.83131147 L0.445436483,6.83131147 L0.445436483,33.8313115 L17.4454365,33.8313115 L17.4454365,6.83131147 Z M16.9454365,7.33131147 L16.9454365,33.3313115 L0.945436483,33.3313115 L0.945436483,7.33131147 L16.9454365,7.33131147 Z" id="Combined-Shape-Copy-9" fill="#636262" fill-rule="nonzero"></path>
+        <polyline id="Path-Copy-33" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(16.229898, 18.046850) rotate(-225.000000) translate(-16.229898, -18.046850) " points="27.2387888 24.5468501 1.68243957 24.5468501 1.68243957 11.5468501 29.0065557 11.5468501 30.7773562 11.5468501"></polyline>
+        <polygon id="Path-Copy-34" fill="#636262" fill-rule="nonzero" transform="translate(16.104898, 18.046850) rotate(-225.000000) translate(-16.104898, -18.046850) " points="30.7773562 11.2968501 30.7773562 11.7968501 1.93243648 11.7963115 1.93243648 24.2963115 27.2387888 24.2968501 27.2387888 24.7968501 1.43243957 24.7968501 1.43243957 11.2968501"></polygon>
+        <path d="M22.7347485,7.0469631 L22.7347485,7.04030762 C22.7347485,4.88499884 25.3003234,3.12850117 28.5098102,3.04977364 L28.7347485,3.04701929 C32.048457,3.04701929 34.7347485,4.83487538 34.7347485,7.04030762 C34.7347485,7.04254527 34.7347485,7.0447825 34.7347485,7.04701929" id="Path-Copy-35" fill="url(#linearGradient-3)" fill-rule="nonzero" transform="translate(28.734748, 5.047019) rotate(-315.000000) translate(-28.734748, -5.047019) "></path>
+        <path d="M28.7347485,2.79701929 C32.0842938,2.79701929 34.843632,4.57775935 34.9795054,6.86350636 L34.9847485,7.04701929 L34.4847485,7.04701929 C34.4847485,5.05483897 32.0631368,3.38929735 28.9949503,3.30070602 L28.7378095,3.29700055 L28.5159408,3.29969847 C25.503787,3.37358548 23.1204272,4.96021535 22.9903425,6.87537421 L22.9847485,7.0469631 L22.4847485,7.0469631 C22.4847485,4.78859935 25.0302035,2.97677247 28.2510988,2.80955514 L28.5067492,2.79979238 L28.7347485,2.79701929 Z" id="Path-Copy-36" fill="#636262" fill-rule="nonzero" transform="translate(28.734748, 4.922019) rotate(-315.000000) translate(-28.734748, -4.922019) "></path>
+        <rect id="Rectangle-Copy-40" fill="url(#linearGradient-4)" fill-rule="nonzero" transform="translate(26.445436, 7.831311) rotate(-225.000000) translate(-26.445436, -7.831311) " x="24.4454365" y="-0.668688525" width="4" height="17" rx="2"></rect>
+        <path d="M26.4454365,-0.668688525 C27.550006,-0.668688525 28.4454365,0.226741975 28.4454365,1.33131147 L28.4454365,14.3313115 C28.4454365,15.435881 27.550006,16.3313115 26.4454365,16.3313115 C25.340867,16.3313115 24.4454365,15.435881 24.4454365,14.3313115 L24.4454365,1.33131147 C24.4454365,0.226741975 25.340867,-0.668688525 26.4454365,-0.668688525 Z M26.4454365,-0.168688525 C25.6657404,-0.168688525 25.0249878,0.426199558 24.9523031,1.18685146 L24.9454365,1.33131147 L24.9454365,14.3313115 C24.9454365,15.1597386 25.6170094,15.8313115 26.4454365,15.8313115 C27.2251326,15.8313115 27.8658852,15.2364234 27.9385699,14.4757715 L27.9454365,14.3313115 L27.9454365,1.33131147 C27.9454365,0.50288435 27.2738636,-0.168688525 26.4454365,-0.168688525 Z" id="Rectangle-Copy-44" fill="#636262" fill-rule="nonzero" transform="translate(26.445436, 7.831311) rotate(-225.000000) translate(-26.445436, -7.831311) "></path>
+        <polygon id="Rectangle-Copy-48" fill="url(#linearGradient-5)" fill-rule="nonzero" points="1 7.5 17 7.5 17 33.5 1 33"></polygon>
+    </g>
+</svg>

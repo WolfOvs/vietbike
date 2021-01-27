@@ -1,0 +1,105 @@
+@import 'mixin';
+
+//Layout base
+// $props: space-between, flex-start, center;
+.dflex {
+	@include flexbox();
+	//Layout page
+  &__col {
+		@include flex-direction(column);
+    @include flex-shrink(0);
+		 @media(max-width: 768px) {
+			 @include flex-shrink(0);
+		 }
+    &--big {
+      @include flex-grow(1);
+      @include flex-shrink(1);
+       @media(max-width: 768px) {
+				@include flex-grow(0);
+				@include flex-shrink(0);
+       }
+    }
+	}
+	&__center{
+		@include align-items(center);
+		// @for $prop from 1 through $props {
+		// 	&--#{prop} {
+		// 		@include justify-content(#{prop});
+		// 	}
+		// }
+		&--space-between{
+			@include justify-content(space-between);
+		}
+		&--space-center{
+			@include justify-content(center);
+		}
+		&--justify-content-flexend {
+			@include justify-content(flex-end);
+		}
+		&--space-evenly{
+			@include justify-content(space-evenly);
+		}
+	}
+	&__wrap {
+		@include flex-wrap(wrap);
+	}
+	
+	//Layout column
+	&__grow {
+		@include flex-grow(1);
+	}
+	&__row {
+		margin: 0 -8px;
+    flex-basis: 0;
+    flex-shrink: 0;
+		flex-grow: 1;
+		flex-flow: wrap;
+		@media(max-width: 768px) {
+			flex-direction: column;
+		}
+	}
+	&--same-width {
+		flex-basis: 0;
+		flex-shrink: 0;
+		padding: 0 8px;
+		@media(max-width: 768px) {
+			flex-basis: auto;
+			padding: 8px;
+		}
+	}
+}
+
+$spaces: 100;
+
+@for $i from 1 through $spaces {
+	.margin-#{$i} {
+		@include margin($i);
+	}
+	.margin-top-#{$i} {
+		@include margin-top($i);
+	}
+	.margin-left-#{$i} {
+		@include margin-left($i);
+	}
+	.margin-right-#{$i} {
+		@include margin-right($i);
+	}
+	.margin-bottom-#{$i} {
+		@include margin-bottom($i);
+	}
+	.padding-#{$i} {
+		@include padding($i);
+	}
+	.padding-top-#{$i} {
+		@include padding-top($i);
+	}
+	.padding-left-#{$i} {
+		@include padding-left($i);
+	}
+	.padding-right-#{$i} {
+		@include padding-right($i);
+	}
+	.padding-bottom-#{$i} {
+		@include padding-bottom($i);
+	}
+}

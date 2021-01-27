@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17">
+    <defs>
+        <linearGradient id="prefix__a" x1="20.392%" x2="90.604%" y1="8.867%" y2="79.738%">
+            <stop offset="0%" stop-color="#0B6D2D"/>
+            <stop offset="49.556%" stop-color="#80EAA5"/>
+            <stop offset="100%" stop-color="#0B6D2D"/>
+        </linearGradient>
+        <linearGradient id="prefix__b" x1="20.312%" x2="90.714%" y1="8.867%" y2="79.738%">
+            <stop offset="0%" stop-color="#0B6D2D"/>
+            <stop offset="49.556%" stop-color="#80EAA5"/>
+            <stop offset="100%" stop-color="#0B6D2D"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#9EA1A4" d="M4.904 11.769L4.904 14.712"/>
+        <path fill="url(#prefix__a)" d="M3.996 9.832l3.443 3.442c.195.196.195.512 0 .708-.065.064-.146.11-.234.131L2.643 15.24c-.268.066-.54-.097-.606-.365-.019-.079-.019-.16 0-.24l1.12-4.568c.066-.268.336-.432.605-.366.088.021.17.067.234.132z" transform="rotate(135 4.953 12.32)"/>
+        <path stroke="#9EA1A4" d="M4.904 2.288L4.904 4.25"/>
+        <path fill="url(#prefix__b)" d="M3.828 2.143l3.375 3.375c.195.195.195.512 0 .707-.07.07-.16.118-.259.137l-4.185.811c-.271.053-.534-.125-.586-.396-.012-.063-.012-.127 0-.19l.81-4.186c.053-.27.315-.448.587-.395.098.019.188.066.258.137z" transform="scale(-1 1) rotate(-45 0 16.346)"/>
+    </g>
+</svg>

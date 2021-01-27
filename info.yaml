@@ -1,0 +1,7 @@
+currentSprint: 28
+
+dependencies: 
+  - tel-alarm-splitter-mongodb-s1
+teamsChannelNotification: 
+  CI: 
+    - 'https://outlook.office.com/webhook/4d148c10-dfd1-4408-be77-107db18f53f0@19646c18-1578-452e-b5fb-8504eb919aaa/IncomingWebhook/a66c7824beb843f689fb8045d94254f9/35e9768c-42c6-48a1-8c1d-ccc2150b4432'

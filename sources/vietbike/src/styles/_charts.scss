@@ -1,0 +1,306 @@
+//Layout chart with table
+.container-graph {
+	text-align: center;
+	overflow-x: auto;
+	svg {
+		overflow: visible;
+	}
+
+	.not-trusted {
+		fill: #fff;
+		animation: opacity 1s infinite; 
+	}
+
+	.block {
+		fill: #ff7a76;
+	}
+
+	.alarm {
+		fill: #ff8d00;
+	}
+
+	.pre-alarm {
+		fill: #ffe16c;
+	}
+}
+
+@keyframes opacity {
+  0%   { opacity: 0.6; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+.clickableVibrazioni {
+	cursor: pointer;
+	opacity: 0;
+}
+
+.turbineContainer {
+	position: relative;
+}
+
+.labelGroup {
+	text {
+		cursor: pointer;
+		&:hover {
+			fill: #33a7df;
+		}
+	}
+	.svgLabel {
+		cursor: pointer;
+		&:hover {
+			fill: #33a7df;
+		}
+	}
+}
+
+.unitValue {
+	// pointer-events: bounding-box;
+	cursor: pointer;
+	&:hover {
+		text {
+		fill: #33a7df;
+		}
+		+ .popover {
+			display: block;
+		}
+	}
+	+ .popover {
+		display: none;
+	}
+}
+
+//hover image charts
+.hover-img {
+	opacity: 0;
+	cursor: pointer;
+	&.active {
+		opacity: 1;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	&:hover {
+		opacity: .5;
+	}
+}
+.disable-click {
+	opacity: 0.15;
+}
+
+//Pointer on click area chart
+.redirectTCS {
+	cursor: pointer;
+}
+
+//Hide parts of chart
+.hide-chart {
+	opacity: 0;
+}
+//show parts of chart
+.show-chart {
+	opacity: 1;
+}
+
+//show parts of chart
+.show-chart-grey {
+	opacity: 1;
+}
+
+//loader state
+.loader-path {
+  stroke-dasharray: 20,200;
+	stroke-dashoffset: 0;
+	transform-origin: 13.5px 13.5px;
+	stroke-linecap: round;
+	animation: rotate .8s linear infinite;
+	&.green {
+		stroke: #42b86b;
+	}
+	&.red {
+		stroke: #d73530;
+	}
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.tooltip-chart-cartesian{
+	position: absolute;
+	transform: translate(-50%, -100%);
+  padding: 8px;
+  background: #223045;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+	pointer-events: none;
+	z-index: 9999;
+	border-radius: 2px;
+	font-size: 1em;
+	line-height: 1.4;
+	color: #FFFFFF;
+	text-align: left;
+	min-width: 95px;
+	p {
+		margin: 0
+	}
+	.axis {
+		color: #8dabc4;
+	}
+	&::after {
+		content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #223045;
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 100%;
+		left: 50%;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		border-right: 1px solid rgba(255, 255, 255, 0.2);
+	}
+}
+
+.tooltip-chart{
+	position: fixed;
+	transform: translate(-50%, -100%);
+  padding: 5px;
+  background: #223045;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+	pointer-events: none;
+	z-index: 9999;
+	border-radius: 4px;
+	font-size: 0.9em;
+	color: #FFFFFF;
+	text-align: center;	
+	p {
+		margin: 0
+	}
+	&::after {
+		content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #223045;
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 100%;
+		left: 50%;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		border-right: 1px solid rgba(255, 255, 255, 0.2);
+	}
+}
+
+.orange-digital {
+	fill: rgba(255, 141, 0, 1) !important;
+} 
+
+.red-digital {
+	fill: rgba(255, 0, 0, 1) !important;
+} 
+
+.grey-digital {
+	fill: rgba(255, 255, 255, 0.5);
+}
+
+
+.restyle {
+	header {
+		background-color:#fff;
+		color:#000;
+		border-bottom: 1px solid #354E70 !important;
+	}
+
+	.container-article {
+		background:#fff;
+		color:#000;
+	}
+
+	label, span, li {
+		color:#000;
+	}
+
+	g {
+		fill: rgb(0, 0, 0) !important;
+	}
+
+	text {
+		color:#000 !important;
+		fill: rgb(0, 0, 0) !important;
+	}
+
+	span {
+		background-color:#fff;
+	}
+
+	li {
+		background-color:#fff !important;
+	}
+
+	li:nth-child(1) {
+		border:auto;
+		border-bottom: 1px solid #354E70 !important;
+		border-top: 1px solid #354E70 !important;
+		border-right: 1px solid #354E70 !important;
+		border-left: 1px solid #354E70 !important;
+	}
+
+	li div {
+		color:#000;
+	}
+}
+
+.tooltip-dot {
+	background-color: transparent !important;
+}
+
+.tooltip-container-dots {
+	width: 250px;
+	display: block;
+	padding: 12px;
+	background-color: #14628f;
+	border-radius:5px;
+	text-align: initial;
+	position: absolute;
+	left:-180px;
+	top:30px;
+	font-family: 'Ubuntu', sans-serif;
+	
+	.tooltip-value {
+		.value {
+			font-size:18px;
+			font-weight:bold;
+			margin-top:5px;
+		}
+
+		.result {
+			margin-top:10px;
+			display: flex;
+			align-items: center;
+			
+			img {
+				margin-right: 5px;
+			}
+		}
+	}
+	  
+	.tooltip-header {
+		font-size: 12px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.description {
+		margin-top:10px;
+		padding: 6px;
+    	border-radius: 5px;
+		background-color: #124a6a;
+		font-size: 11px;
+		min-height:50px;
+
+		.title {
+			font-style:italic;
+			margin-bottom: 2px;
+		}
+	}
+}

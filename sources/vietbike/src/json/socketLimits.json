@@ -1,0 +1,163 @@
+[
+    {
+       "coordinates":[
+          43.820718, // info statica da team Cartesio
+          10.506696 // info statica da team Cartesio
+       ],
+       "id":1, // info statica FE
+       "type":1, // info statica FE
+       "name":"Mortaiolo", // info statica da team Cartesio
+       "state":0, // attivo/non attivo
+       "notification":true, // ha notifica, ha set limite disponibile
+       "pressione":403956.00,
+       "portata":80000,
+       "isOpenPopup":true, // info statica FE
+       "time":"weekly", // tipo temporale di notifica
+       "date": 1603152180,
+       "cabine":[
+          {
+             "id":1,
+             "name":"CAB 808/A",
+             "pressioneIN":303999.00,
+             "pressioneOUT":299989.90,
+             "portata":40000,
+             "limite":40000,
+             "limiteConsigliato":45000,
+             "limitDate":1603280491
+          },
+          {
+             "id":2,
+             "name":"CAB 808/B",
+             "pressioneIN":503999.00,
+             "pressioneOUT":499989.90,
+             "portata":60000,
+             "limite":60000,
+             "limiteConsigliato":70000,
+             "limitDate":1603280491
+          }
+       ]
+    },
+    {
+       "coordinates":[
+          43.9,
+          11.506696
+       ],
+       "id":2,
+       "type":1,
+       "name":"Lastra a Signa",
+       "state":1,
+       "notification":true,
+       "pressione":507999.00,
+       "portata":60000,
+       "isOpenPopup":true,
+       "time":"daily",
+       "date": 1603152180,
+       "cabine":[
+          {
+             "id":1,
+             "name":"CAB 808/A",
+             "pressioneIN":303999.00,
+             "pressioneOUT":299989.90,
+             "portata":40000,
+             "limite":40000,
+             "limiteConsigliato":45000,
+             "limitDate":1603280491
+          },
+          {
+             "id":2,
+             "name":"CAB 808/B",
+             "pressioneIN":503999.00,
+             "pressioneOUT":499989.90,
+             "portata":60000,
+             "limite":60000,
+             "limiteConsigliato":70000,
+             "limitDate":1603280491
+          }
+       ]
+    },
+    {
+       "coordinates":[
+          43,
+          11.506696
+       ],
+       "id":3,
+       "type":1,
+       "name":"Scandicci",
+       "state":1,
+       "notification":true,
+       "pressione":507999.00,
+       "portata":60000,
+       "isOpenPopup":true,
+       "time":"daily",
+       "date": 1603152180,
+       "cabine":[
+          {
+             "id":1,
+             "name":"CAB 808/A",
+             "pressioneIN":303999.00,
+             "pressioneOUT":299989.90,
+             "portata":40000,
+             "limite":40000,
+             "limiteConsigliato":45000,
+             "limitDate":1603280491
+          }
+       ]
+    },
+    {
+       "coordinates":[
+          43.65,
+          9.72
+       ],
+       "id":4,
+       "type":0,
+       "name":"Livorno",
+       "state":2,
+       "notification":false,
+       "pressione":404449.00,
+       "portata":90000,
+       "isOpenPopup":true,
+       "time":"EP",
+       "date": 1603152180,
+       "cabine":[
+          {
+             "id":1,
+             "name":"CAB 808/A",
+             "pressioneIN":303999.00,
+             "pressioneOUT":299989.90,
+             "portata":40000,
+             "limite":40000,
+             "limiteConsigliato":45000,
+             "limitDate":1603280491
+          },
+          {
+             "id":2,
+             "name":"CAB 808/B",
+             "pressioneIN":503999.00,
+             "pressioneOUT":499989.90,
+             "portata":60000,
+             "limite":60000,
+             "limiteConsigliato":70000,
+             "limitDate":1603280491
+          }
+       ]
+    },
+    {
+       "coordinates":[
+          43.2,
+          12
+       ],
+       "id":5,
+       "type":1,
+       "name":"Firenze",
+       "state":2,
+       "notification":true,
+       "pressione":404449.00,
+       "portata":90000,
+       "isOpenPopup":true,
+       "time":"daily",
+       "date": 1603152180,
+       "cabine":[
+          
+       ]
+    }
+ ]

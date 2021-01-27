@@ -1,0 +1,20 @@
+@keyframes spin {
+	0 {
+			transform:scale(1);
+	}
+	50% {
+			transform:scale(1.2);
+	}
+	100% {
+			transform:scale(1);
+	}
+}
+
+
+
+.img-spin {
+	animation-name: spin;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}

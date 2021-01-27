@@ -1,0 +1,165 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+labels:
+  template: tel-react-portal
+metadata:
+  name: tel-react-portal
+objects:
+    
+- apiVersion: v1
+  kind: Secret
+  metadata:
+    name: tel.tel-react-portal-secret
+  type: Opaque 
+  stringData:
+    config.json: '###CONFIG_JSON###'
+
+# - apiVersion: v1
+#   kind: ConfigMap
+#   metadata:
+#     name: tel-react-portal-config
+#     labels:
+#       app: telediagnostica
+#       microservice: tel-react-portal
+#   data:
+#     config.json: '###CONFIG_JSON###'
+
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: telediagnostica
+    name: tel-react-portal
+  spec:
+    ports:
+      - name: 8080-tcp
+        port: 8080
+        protocol: TCP
+        targetPort: 8080
+      - name: 8443-tcp
+        port: 8443
+        protocol: TCP
+        targetPort: 8443
+      - name: 8778-tcp
+        port: 8778
+        protocol: TCP
+        targetPort: 8778
+    selector:
+      app: telediagnostica
+      microservice: tel-react-portal
+      deploymentconfig: tel-react-portal
+    sessionAffinity: None
+    type: ClusterIP
+    
+- apiVersion: route.openshift.io/v1
+  kind: Route
+  metadata:
+    labels:
+      app: telediagnostica
+      microservice: tel-react-portal
+    name: tel-react-portal
+  spec:
+    port:
+      targetPort: 8080-tcp
+    to:
+      kind: Service
+      name: tel-react-portal
+      weight: 100
+    wildcardPolicy: None    
+    
+
+- apiVersion: apps.openshift.io/v1
+  kind: DeploymentConfig
+  metadata:
+    labels:
+      app: telediagnostica
+      microservice: tel-react-portal
+    name: tel-react-portal
+  spec:
+    replicas: 1
+    revisionHistoryLimit: 10
+    selector:
+      app: telediagnostica
+      microservice: tel-react-portal
+      deploymentconfig: tel-react-portal
+    strategy:
+      activeDeadlineSeconds: 21600
+      resources:
+        requests:
+          cpu: ###REQUEST_CPU###
+          memory: ###REQUEST_CPU###
+        limits:
+          cpu: ###LIMIT_CPU###
+          memory: ###LIMIT_MEMORY###
+      rollingParams:
+        intervalSeconds: 1
+        maxSurge: 25%
+        maxUnavailable: 25%
+        timeoutSeconds: 600
+        updatePeriodSeconds: 1
+      type: Rolling
+    template:
+      metadata:
+        labels:
+          app: telediagnostica
+          microservice: tel-react-portal
+          deploymentconfig: tel-react-portal
+          version: ${IMAGE_TAG}
+      spec:
+        containers:
+          - image: docker-registry.default.svc:5000/1510-ci-cd/tel-react-portal:${IMAGE_TAG}
+            imagePullPolicy: Always
+            name: tel-react-portal
+            readinessProbe:
+              httpGet:
+                path: "/"
+                port: 8080
+              failureThreshold: 5
+              initialDelaySeconds: 30
+              periodSeconds: 20
+              successThreshold: 1
+              timeoutSeconds: 10
+            livenessProbe:
+              httpGet:
+                path: "/"
+                port: 8080
+              failureThreshold: 3
+              initialDelaySeconds: 90
+              periodSeconds: 30
+              successThreshold: 1
+              timeoutSeconds: 10
+            ports:
+              - containerPort: 8778
+                protocol: TCP
+              - containerPort: 8080
+                protocol: TCP
+              - containerPort: 8443
+                protocol: TCP
+            resources: 
+              limits:
+                cpu: 150m
+                memory: 150Mi
+              requests:
+                cpu: 20m
+                memory: 80Mi
+            terminationMessagePath: /dev/termination-log
+            terminationMessagePolicy: File
+            volumeMounts:
+              - mountPath: /opt/app-root/src/priv/config
+                name: portal-config-volume
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+        volumes:
+          - secret:
+              defaultMode: 400
+              secretName: tel.tel-react-portal-secret
+            name: portal-config-volume
+    test: false
+parameters:
+- description: Tag of the ImageStream to be used
+  displayName: Tag of the Image
+  name: IMAGE_TAG
+  value: latest

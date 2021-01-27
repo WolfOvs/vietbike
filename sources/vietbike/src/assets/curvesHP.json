@@ -1,0 +1,18 @@
+[
+	{
+		"title": "Limite superiore",
+		"color": "#33a7df",
+		"values": [
+			{"x": 20, "y": 37},
+			{"x": 80, "y": 123}
+		]
+	},
+	{
+		"title": "Limite inferiore",
+		"color": "#33a7df",
+		"values": [
+			{"x": 20, "y": 25},
+			{"x": 80, "y": 75}
+		]
+	}
+]

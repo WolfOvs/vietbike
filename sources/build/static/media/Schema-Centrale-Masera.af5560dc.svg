@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="830px" height="529px" viewBox="0 0 830 529" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Schema-Centrale-Masera</title>
+    <defs>
+        <filter x="-20.7%" y="-28.6%" width="141.4%" height="157.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="16" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-115.5%" y="-478.6%" width="331.0%" height="1057.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-3">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-111.7%" y="-26.8%" width="323.3%" height="153.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-5">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-6">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-7">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#F3F4F4" offset="49.4271585%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <path d="M-23.3732242,47.1228647 L158.535347,27.9653754 C160.732336,27.734002 162.700913,29.3274485 162.932287,31.5244377 C162.946943,31.6636029 162.954286,31.8034413 162.954286,31.9433762 L162.954286,159.056624 C162.954286,161.265763 161.163425,163.056624 158.954286,163.056624 C158.814351,163.056624 158.674512,163.049281 158.535347,163.034625 L-23.3732242,143.877135 C-25.4089241,143.662748 -26.9542857,141.946092 -26.9542857,139.899134 L-26.9542857,51.1008655 C-26.9542857,49.0539078 -25.4089241,47.337252 -23.3732242,47.1228647 Z" id="path-8"></path>
+        <linearGradient x1="50.0338387%" y1="100%" x2="50.0338387%" y2="0%" id="linearGradient-10">
+            <stop stop-color="#363D43" offset="0%"></stop>
+            <stop stop-color="#798085" offset="49.3876689%"></stop>
+            <stop stop-color="#363D43" offset="100%"></stop>
+        </linearGradient>
+        <path d="M11.8602843,70.698142 L121.860284,59.9297297 C124.058913,59.7144957 126.015736,61.322355 126.23097,63.520984 C126.243649,63.6505023 126.25,63.7805622 126.25,63.9106997 L126.25,167.070581 C126.25,169.27972 124.459139,171.070581 122.25,171.070581 C122.11424,171.070581 121.978568,171.063669 121.843512,171.049873 L11.8435115,159.813269 C9.80238722,159.604766 8.25,157.885723 8.25,155.833977 L8.25,74.6791119 C8.25,72.6209128 9.81187716,70.8986701 11.8602843,70.698142 Z" id="path-11"></path>
+        <filter x="-4.2%" y="-4.1%" width="108.5%" height="108.2%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="4.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.301737325 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.9836364%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-13">
+            <stop stop-color="#212F42" offset="0%"></stop>
+            <stop stop-color="#004C97" offset="13.66%"></stop>
+            <stop stop-color="#004C97" offset="42.07%"></stop>
+            <stop stop-color="#004C97" offset="51.52%"></stop>
+            <stop stop-color="#213042" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.452788603%" y1="50.4025862%" x2="99.6148889%" y2="50.4025862%" id="linearGradient-14">
+            <stop stop-color="#AFACB1" offset="0%"></stop>
+            <stop stop-color="#BAB9BC" offset="28.4987728%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="58.4371217%"></stop>
+            <stop stop-color="#958F95" offset="100%"></stop>
+        </linearGradient>
+        <path d="M127.476212,62.923555 L127.49405,63.1668371 L127.5,63.4106997 L127.5,166.570581 C127.5,169.332004 125.261424,171.570581 122.5,171.570581 C122.3303,171.570581 122.160711,171.561941 121.991889,171.544696 L11.9918894,160.308092 C9.44048402,160.047464 7.5,157.898659 7.5,155.333977 L7.5,74.1791119 C7.5,71.6063631 9.45234645,69.4535596 12.0128554,69.2028995 L122.012855,58.4344872 C124.761142,58.1654447 127.20717,60.1752688 127.476212,62.923555 Z M125.463485,62.9434749 C125.219241,61.3850499 123.797793,60.2693119 122.207713,60.4249722 L12.2077132,71.1933844 C10.6714079,71.3437805 9.5,72.6354626 9.5,74.1791119 L9.5,155.333977 C9.5,156.872786 10.6642904,158.162069 12.1951336,158.318446 L122.195134,169.55505 C122.296426,169.565397 122.39818,169.570581 122.5,169.570581 C124.156854,169.570581 125.5,168.227435 125.5,166.570581 L125.5,63.4106997 L125.49643,63.2643821 L125.485727,63.1184129 L125.463485,62.9434749 Z" id="path-15"></path>
+        <filter x="-9.2%" y="-8.0%" width="116.7%" height="117.7%" filterUnits="objectBoundingBox" id="filter-16">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.230550699 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="88.5852821%" x2="50.0338387%" y2="9.63831566%" id="linearGradient-17">
+            <stop stop-color="#363D43" offset="0%"></stop>
+            <stop stop-color="#73797E" offset="49.1686022%"></stop>
+            <stop stop-color="#363D43" offset="100%"></stop>
+        </linearGradient>
+        <path d="M4.0957693,0 L21,0 C23.209139,-4.05812251e-16 25,1.790861 25,4 L25,76 C25,78.209139 23.209139,80 21,80 L4.0050435,80 C1.7959045,80 0.00504349819,78.209139 0.00504349819,76 C0.00504349819,75.9983199 0.00504455672,75.9966398 0.00504667379,75.9949597 L0.0957724802,3.99495968 C0.0985536913,1.78779054 1.88859842,2.18180755e-15 4.0957693,0 Z" id="path-18"></path>
+        <filter x="-18.0%" y="-5.6%" width="136.0%" height="111.2%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26685424 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.9836364%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-21">
+            <stop stop-color="#8B878D" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-22" points="560 394.5 559.115625 395.384375 562.60625 398.875 555 398.875 555 400.125 562.60625 400.125 559.115625 403.615625 560 404.5 565 399.5"></polygon>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-23">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-197.1%" y="-16.3%" width="494.1%" height="132.5%" filterUnits="objectBoundingBox" id="filter-24">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-25">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-197.1%" y="-16.3%" width="494.1%" height="132.5%" filterUnits="objectBoundingBox" id="filter-26">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-27">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-197.1%" y="-16.0%" width="494.1%" height="131.9%" filterUnits="objectBoundingBox" id="filter-28">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-29">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-197.1%" y="-16.3%" width="494.1%" height="132.7%" filterUnits="objectBoundingBox" id="filter-30">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-31">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-197.1%" y="-7.3%" width="494.1%" height="114.7%" filterUnits="objectBoundingBox" id="filter-32">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-33">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-197.1%" y="-7.3%" width="494.1%" height="114.7%" filterUnits="objectBoundingBox" id="filter-34">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-35">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-20.7%" y="-28.6%" width="141.4%" height="157.3%" filterUnits="objectBoundingBox" id="filter-36">
+            <feGaussianBlur stdDeviation="16" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-115.5%" y="-478.6%" width="331.0%" height="1057.1%" filterUnits="objectBoundingBox" id="filter-37">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-20.7%" y="-28.6%" width="141.4%" height="157.3%" filterUnits="objectBoundingBox" id="filter-38">
+            <feGaussianBlur stdDeviation="16" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <polygon id="path-39" points="25 464.5 24.115625 465.384375 27.60625 468.875 20 468.875 20 470.125 27.60625 470.125 24.115625 473.615625 25 474.5 30 469.5"></polygon>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-40">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-41" points="5 3.5 4.115625 4.384375 7.60625 7.875 0 7.875 0 9.125 7.60625 9.125 4.115625 12.615625 5 13.5 10 8.5"></polygon>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-42">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M-23.3732242,47.1228647 L158.535347,27.9653754 C160.732336,27.734002 162.700913,29.3274485 162.932287,31.5244377 C162.946943,31.6636029 162.954286,31.8034413 162.954286,31.9433762 L162.954286,159.056624 C162.954286,161.265763 161.163425,163.056624 158.954286,163.056624 C158.814351,163.056624 158.674512,163.049281 158.535347,163.034625 L-23.3732242,143.877135 C-25.4089241,143.662748 -26.9542857,141.946092 -26.9542857,139.899134 L-26.9542857,51.1008655 C-26.9542857,49.0539078 -25.4089241,47.337252 -23.3732242,47.1228647 Z" id="path-43"></path>
+        <path d="M12.1102843,70.198142 L122.110284,59.4297297 C124.308913,59.2144957 126.265736,60.822355 126.48097,63.020984 C126.493649,63.1505023 126.5,63.2805622 126.5,63.4106997 L126.5,166.570581 C126.5,168.77972 124.709139,170.570581 122.5,170.570581 C122.36424,170.570581 122.228568,170.563669 122.093512,170.549873 L12.0935115,159.313269 C10.0523872,159.104766 8.5,157.385723 8.5,155.333977 L8.5,74.1791119 C8.5,72.1209128 10.0618772,70.3986701 12.1102843,70.198142 Z" id="path-45"></path>
+        <filter x="-4.2%" y="-4.1%" width="108.5%" height="108.2%" filterUnits="objectBoundingBox" id="filter-46">
+            <feGaussianBlur stdDeviation="4.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.301737325 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M127.476212,62.923555 L127.49405,63.1668371 L127.5,63.4106997 L127.5,166.570581 C127.5,169.332004 125.261424,171.570581 122.5,171.570581 C122.3303,171.570581 122.160711,171.561941 121.991889,171.544696 L11.9918894,160.308092 C9.44048402,160.047464 7.5,157.898659 7.5,155.333977 L7.5,74.1791119 C7.5,71.6063631 9.45234645,69.4535596 12.0128554,69.2028995 L122.012855,58.4344872 C124.761142,58.1654447 127.20717,60.1752688 127.476212,62.923555 Z M125.463485,62.9434749 C125.219241,61.3850499 123.797793,60.2693119 122.207713,60.4249722 L12.2077132,71.1933844 C10.6714079,71.3437805 9.5,72.6354626 9.5,74.1791119 L9.5,155.333977 C9.5,156.872786 10.6642904,158.162069 12.1951336,158.318446 L122.195134,169.55505 C122.296426,169.565397 122.39818,169.570581 122.5,169.570581 C124.156854,169.570581 125.5,168.227435 125.5,166.570581 L125.5,63.4106997 L125.49643,63.2643821 L125.485727,63.1184129 L125.463485,62.9434749 Z" id="path-47"></path>
+        <filter x="-9.2%" y="-8.0%" width="116.7%" height="117.7%" filterUnits="objectBoundingBox" id="filter-48">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.230550699 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M4.0957693,0 L21,0 C23.209139,-4.05812251e-16 25,1.790861 25,4 L25,76 C25,78.209139 23.209139,80 21,80 L4.0050435,80 C1.7959045,80 0.00504349819,78.209139 0.00504349819,76 C0.00504349819,75.9983199 0.00504455672,75.9966398 0.00504667379,75.9949597 L0.0957724802,3.99495968 C0.0985536913,1.78779054 1.88859842,2.18180755e-15 4.0957693,0 Z" id="path-49"></path>
+        <filter x="-18.0%" y="-5.6%" width="136.0%" height="111.2%" filterUnits="objectBoundingBox" id="filter-51">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26685424 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-111.7%" y="-26.8%" width="323.3%" height="153.6%" filterUnits="objectBoundingBox" id="filter-52">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-111.7%" y="-26.8%" width="323.3%" height="153.6%" filterUnits="objectBoundingBox" id="filter-53">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M-23.3732242,47.1228647 L158.535347,27.9653754 C160.732336,27.734002 162.700913,29.3274485 162.932287,31.5244377 C162.946943,31.6636029 162.954286,31.8034413 162.954286,31.9433762 L162.954286,159.056624 C162.954286,161.265763 161.163425,163.056624 158.954286,163.056624 C158.814351,163.056624 158.674512,163.049281 158.535347,163.034625 L-23.3732242,143.877135 C-25.4089241,143.662748 -26.9542857,141.946092 -26.9542857,139.899134 L-26.9542857,51.1008655 C-26.9542857,49.0539078 -25.4089241,47.337252 -23.3732242,47.1228647 Z" id="path-54"></path>
+        <path d="M642.860284,217.198142 L752.860284,206.42973 C755.058913,206.214496 757.015736,207.822355 757.23097,210.020984 C757.243649,210.150502 757.25,210.280562 757.25,210.4107 L757.25,313.570581 C757.25,315.77972 755.459139,317.570581 753.25,317.570581 C753.11424,317.570581 752.978568,317.563669 752.843512,317.549873 L642.843512,306.313269 C640.802387,306.104766 639.25,304.385723 639.25,302.333977 L639.25,221.179112 C639.25,219.120913 640.811877,217.39867 642.860284,217.198142 Z" id="path-56"></path>
+        <filter x="-4.2%" y="-4.1%" width="108.5%" height="108.2%" filterUnits="objectBoundingBox" id="filter-57">
+            <feGaussianBlur stdDeviation="4.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.301737325 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-58" points="418 394.5 417.115625 395.384375 420.60625 398.875 413 398.875 413 400.125 420.60625 400.125 417.115625 403.615625 418 404.5 423 399.5"></polygon>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-59">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-60" points="700 394.5 699.115625 395.384375 702.60625 398.875 695 398.875 695 400.125 702.60625 400.125 699.115625 403.615625 700 404.5 705 399.5"></polygon>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-61">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M758.476212,209.423555 L758.49405,209.666837 L758.5,209.9107 L758.5,313.070581 C758.5,315.832004 756.261424,318.070581 753.5,318.070581 C753.3303,318.070581 753.160711,318.061941 752.991889,318.044696 L642.991889,306.808092 C640.440484,306.547464 638.5,304.398659 638.5,301.833977 L638.5,220.679112 C638.5,218.106363 640.452346,215.95356 643.012855,215.702899 L753.012855,204.934487 C755.761142,204.665445 758.20717,206.675269 758.476212,209.423555 Z M756.463485,209.443475 C756.219241,207.88505 754.797793,206.769312 753.207713,206.924972 L643.207713,217.693384 C641.671408,217.843781 640.5,219.135463 640.5,220.679112 L640.5,301.833977 C640.5,303.372786 641.66429,304.662069 643.195134,304.818446 L753.195134,316.05505 C753.296426,316.065397 753.39818,316.070581 753.5,316.070581 C755.156854,316.070581 756.5,314.727435 756.5,313.070581 L756.5,209.9107 L756.49643,209.764382 L756.485727,209.618413 L756.463485,209.443475 Z" id="path-62"></path>
+        <filter x="-9.2%" y="-8.0%" width="116.7%" height="117.7%" filterUnits="objectBoundingBox" id="filter-63">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.230550699 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M4.0957693,0 L21,0 C23.209139,-4.05812251e-16 25,1.790861 25,4 L25,76 C25,78.209139 23.209139,80 21,80 L4.0050435,80 C1.7959045,80 0.00504349819,78.209139 0.00504349819,76 C0.00504349819,75.9983199 0.00504455672,75.9966398 0.00504667379,75.9949597 L0.0957724802,3.99495968 C0.0985536913,1.78779054 1.88859842,2.18180755e-15 4.0957693,0 Z" id="path-64"></path>
+        <filter x="-18.0%" y="-5.6%" width="136.0%" height="111.2%" filterUnits="objectBoundingBox" id="filter-66">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26685424 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <radialGradient cx="-20.1766968%" cy="-21.812439%" fx="-20.1766968%" fy="-21.812439%" r="141.011117%" id="radialGradient-67">
+            <stop stop-color="#8B878D" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </radialGradient>
+        <polygon id="path-68" points="699.5 73.5 698.615625 74.384375 702.10625 77.875 694.5 77.875 694.5 79.125 702.10625 79.125 698.615625 82.615625 699.5 83.5 704.5 78.5"></polygon>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-69">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-70" points="558.5 73.5 557.615625 74.384375 561.10625 77.875 553.5 77.875 553.5 79.125 561.10625 79.125 557.615625 82.615625 558.5 83.5 563.5 78.5"></polygon>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-71">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-72" points="418.5 73.5 417.615625 74.384375 421.10625 77.875 413.5 77.875 413.5 79.125 421.10625 79.125 417.615625 82.615625 418.5 83.5 423.5 78.5"></polygon>
+        <filter x="-20.0%" y="-20.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-73">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-115.5%" y="-478.6%" width="331.0%" height="1057.1%" filterUnits="objectBoundingBox" id="filter-74">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.265461101 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-75">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-76">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-77" cx="12.5" cy="12.5" r="12.5"></circle>
+        <linearGradient x1="50.0338387%" y1="99.72501%" x2="50.0338387%" y2="-0.00448484849%" id="linearGradient-79">
+            <stop stop-color="#656266" offset="0%"></stop>
+            <stop stop-color="#9F9CA1" offset="13.66%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="51.52%"></stop>
+            <stop stop-color="#807B80" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets-Masera" transform="translate(-209.000000, -218.000000)">
+            <g id="Schema-Centrale-Masera" transform="translate(209.000000, 243.500000)">
+                <path d="M446.581418,183.534917 L670.581418,159.964937 C672.778428,159.733761 674.746862,161.327384 674.978038,163.524394 C674.992669,163.663441 675,163.80316 675,163.942975 L675,321.057025 C675,323.266164 673.209139,325.057025 671,325.057025 C670.860185,325.057025 670.720466,325.049694 670.581418,325.035063 L446.581418,301.465083 C444.545563,301.250864 443,299.53414 443,297.487045 L443,187.512955 C443,185.46586 444.545563,183.749136 446.581418,183.534917 Z" id="Rectangle-Copy-68" fill="#000000" fill-rule="nonzero" opacity="0.32047526" filter="url(#filter-1)" transform="translate(559.000000, 242.500000) rotate(-270.000000) translate(-559.000000, -242.500000) "></path>
+                <g id="Group-14-Copy" filter="url(#filter-2)" transform="translate(544.000000, 140.500000)" fill="url(#linearGradient-3)" fill-rule="nonzero" stroke="#636262" stroke-width="0.5">
+                    <rect id="Rectangle-Copy-18" transform="translate(14.500000, 3.500000) rotate(-270.000000) translate(-14.500000, -3.500000) " x="11.25" y="-10.75" width="6.5" height="28.5"></rect>
+                </g>
+                <g id="Group-9-Copy" filter="url(#filter-4)" transform="translate(544.000000, 336.500000)" fill-rule="nonzero">
+                    <polygon id="Rectangle-Copy-21" fill="url(#linearGradient-5)" transform="translate(15.500000, 66.000000) rotate(-270.000000) translate(-15.500000, -66.000000) " points="-43.5 58 74.5 58 74.5 74 -43.5 74"></polygon>
+                    <rect id="Rectangle-Copy-23" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-3)" transform="translate(15.000000, 3.500000) rotate(-270.000000) translate(-15.000000, -3.500000) " x="11.75" y="-10.75" width="6.5" height="28.5"></rect>
+                    <rect id="Rectangle-Copy-25" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-6)" transform="translate(15.500000, 121.500000) rotate(-270.000000) translate(-15.500000, -121.500000) " x="12.25" y="113.25" width="6.5" height="16.5"></rect>
+                </g>
+                <g id="Group-10" transform="translate(491.000000, 146.500000)">
+                    <g id="Group-6-Copy">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="Rectangle-Copy-67" fill="url(#linearGradient-7)" fill-rule="nonzero" transform="translate(68.000000, 95.500000) rotate(-270.000000) translate(-68.000000, -95.500000) " xlink:href="#path-8"></use>
+                        <path d="M162.932287,31.5244377 C162.946943,31.6636029 162.954286,31.8034413 162.954286,31.9433762 L162.954286,159.056624 C162.954286,161.265763 161.163425,163.056624 158.954286,163.056624 C158.814351,163.056624 158.674512,163.049281 158.535347,163.034625 L-23.3732242,143.877135 C-25.4089241,143.662748 -26.9542857,141.946092 -26.9542857,139.899134 L-26.9542857,51.1008655 C-26.9542857,49.0539078 -25.4089241,47.337252 -23.3732242,47.1228647 L158.535347,27.9653754 C160.732336,27.734002 162.700913,29.3274485 162.932287,31.5244377 Z M162.435036,31.576805 C162.239333,29.7185183 160.623225,28.3537116 158.779236,28.4476631 L158.587715,28.4626255 L-23.3208569,47.6201148 C-25.0384787,47.8010041 -26.3571534,49.2041631 -26.4491536,50.9101158 L-26.4542857,51.1008655 L-26.4542857,139.899134 C-26.4542857,141.626255 -25.1969547,143.084637 -23.51002,143.354803 L-23.3208569,143.379885 L158.587715,162.537375 C158.709484,162.550199 158.831843,162.556624 158.954286,162.556624 C160.822849,162.556624 162.349412,161.092346 162.449107,159.248659 L162.454286,159.056624 L162.454286,31.9433762 L162.44947,31.759838 L162.435036,31.576805 Z" id="Rectangle-Copy-67" fill="#2C405A" fill-rule="nonzero" mask="url(#mask-9)" transform="translate(68.000000, 95.499838) rotate(-270.000000) translate(-68.000000, -95.499838) "></path>
+                    </g>
+                    <g id="Mask" fill-rule="nonzero" transform="translate(67.250000, 115.500000) rotate(-270.000000) translate(-67.250000, -115.500000) ">
+                        <use fill="url(#linearGradient-10)" xlink:href="#path-11"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                    </g>
+                    <path d="M62.3338427,21.77439 L76.25,18.5 L76.25,18.5 L76.25,111.5 L62.3338427,108.22561 C60.5269799,107.800466 59.25,106.188147 59.25,104.331941 L59.25,25.6680586 C59.25,23.8118527 60.5269799,22.1995341 62.3338427,21.77439 Z" id="Rectangle-Copy-79" fill="url(#linearGradient-13)" fill-rule="nonzero" transform="translate(67.750000, 65.000000) rotate(-270.000000) translate(-67.750000, -65.000000) "></path>
+                    <g id="Mask-Copy" fill-rule="nonzero" transform="translate(67.500000, 114.990459) rotate(-270.000000) translate(-67.500000, -114.990459) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <path stroke="#7F7F7F" stroke-width="0.5" d="M121.988498,58.1856766 C123.431348,58.0444293 124.794856,58.5013844 125.832963,59.354364 C126.87401,60.2097599 127.587811,61.4634271 127.72621,62.9114644 L127.72621,62.9114644 L127.75,166.570581 C127.75,168.020328 127.162374,169.332828 126.212311,170.282891 C125.262247,171.232954 123.949747,171.820581 122.5,171.820581 C122.321815,171.820581 122.143746,171.811509 121.966484,171.793402 L121.966484,171.793402 L11.9664839,160.556798 C10.6269961,160.419968 9.44787508,159.787492 8.60362607,158.852609 C7.75937706,157.917725 7.25,156.680435 7.25,155.333977 L7.25,155.333977 L7.25,74.1791119 C7.25,72.8284188 7.76249094,71.5879613 8.61104869,70.652278 C9.45960643,69.7165946 10.644231,69.0856854 11.9884982,68.9540889 L11.9884982,68.9540889 Z M122.23207,60.6737828 L12.2320705,71.4421951 C11.5279305,71.5111266 10.9074129,71.8416029 10.4629303,72.3317227 C10.0184476,72.8218425 9.75,73.471606 9.75,74.1791119 L9.75,155.333977 C9.75,156.039264 10.0168166,156.687369 10.4590422,157.17707 C10.9012679,157.66677 11.5189027,157.998067 12.2205392,158.06974 L122.512448,169.320553 C123.266903,169.31721 123.949612,169.010056 124.444544,168.515124 C124.942196,168.017472 125.25,167.329972 125.25,166.570581 L125.213492,62.9634118 C125.097509,62.2551234 124.715818,61.647992 124.18217,61.2351887 C123.64692,60.8211456 122.9587,60.6026497 122.23207,60.6737828 Z" fill="url(#linearGradient-14)" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="Group-2" transform="translate(27.000000, 118.500000)">
+                        <g id="Group-69-Copy-2" transform="translate(40.500000, 13.000000) rotate(-90.000000) translate(-40.500000, -13.000000) translate(28.000000, -27.000000)">
+                            <mask id="mask-19" fill="white">
+                                <use xlink:href="#path-18"></use>
+                            </mask>
+                            <g id="Mask" fill-rule="nonzero">
+                                <use fill="url(#linearGradient-17)" xlink:href="#path-18"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-18"></use>
+                            </g>
+                            <g id="Group-69" opacity="0.603050595" mask="url(#mask-19)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="0.5">
+                                <g transform="translate(-256.000000, -341.000000)" opacity="0.148297991">
+                                    <line x1="0" y1="429" x2="427.5" y2="0.5" id="Line-8-Copy"></line>
+                                    <line x1="0" y1="432" x2="427.5" y2="3.5" id="Line-8-Copy-2"></line>
+                                    <line x1="0" y1="435" x2="427.5" y2="6.5" id="Line-8-Copy-3"></line>
+                                    <line x1="0" y1="438" x2="427.5" y2="9.5" id="Line-8-Copy-4"></line>
+                                    <line x1="0" y1="441" x2="427.5" y2="12.5" id="Line-8-Copy-5"></line>
+                                    <line x1="0" y1="444" x2="427.5" y2="15.5" id="Line-8-Copy-6"></line>
+                                    <line x1="0" y1="447" x2="427.5" y2="18.5" id="Line-8-Copy-7"></line>
+                                    <line x1="0" y1="450" x2="427.5" y2="21.5" id="Line-8-Copy-8"></line>
+                                    <line x1="0" y1="453" x2="427.5" y2="24.5" id="Line-8-Copy-9"></line>
+                                    <line x1="0" y1="456" x2="427.5" y2="27.5" id="Line-8-Copy-10"></line>
+                                    <line x1="0" y1="459" x2="427.5" y2="30.5" id="Line-8-Copy-11"></line>
+                                    <line x1="0" y1="462" x2="427.5" y2="33.5" id="Line-8-Copy-12"></line>
+                                    <line x1="0" y1="465" x2="427.5" y2="36.5" id="Line-8-Copy-13"></line>
+                                    <line x1="0" y1="468" x2="427.5" y2="39.5" id="Line-8-Copy-14"></line>
+                                    <line x1="0" y1="471" x2="427.5" y2="42.5" id="Line-8-Copy-15"></line>
+                                    <line x1="0" y1="474" x2="427.5" y2="45.5" id="Line-8-Copy-16"></line>
+                                    <line x1="0" y1="477" x2="427.5" y2="48.5" id="Line-8-Copy-17"></line>
+                                    <line x1="0" y1="480" x2="427.5" y2="51.5" id="Line-8-Copy-18"></line>
+                                    <line x1="0" y1="483" x2="427.5" y2="54.5" id="Line-8-Copy-19"></line>
+                                    <line x1="0" y1="486" x2="427.5" y2="57.5" id="Line-8-Copy-20"></line>
+                                    <line x1="0" y1="489" x2="427.5" y2="60.5" id="Line-8-Copy-21"></line>
+                                    <line x1="0" y1="492" x2="427.5" y2="63.5" id="Line-8-Copy-22"></line>
+                                    <line x1="0" y1="495" x2="427.5" y2="66.5" id="Line-8-Copy-23"></line>
+                                    <line x1="0" y1="498" x2="427.5" y2="69.5" id="Line-8-Copy-24"></line>
+                                    <line x1="0" y1="501" x2="427.5" y2="72.5" id="Line-8-Copy-25"></line>
+                                    <line x1="0" y1="504" x2="427.5" y2="75.5" id="Line-8-Copy-26"></line>
+                                    <line x1="0" y1="507" x2="427.5" y2="78.5" id="Line-8-Copy-27"></line>
+                                    <line x1="0" y1="510" x2="427.5" y2="81.5" id="Line-8-Copy-28"></line>
+                                    <line x1="0" y1="513" x2="427.5" y2="84.5" id="Line-8-Copy-29"></line>
+                                    <line x1="0" y1="516" x2="427.5" y2="87.5" id="Line-8-Copy-30"></line>
+                                    <line x1="0" y1="519" x2="427.5" y2="90.5" id="Line-8-Copy-31"></line>
+                                    <line x1="0" y1="522" x2="427.5" y2="93.5" id="Line-8-Copy-32"></line>
+                                    <line x1="0" y1="525" x2="427.5" y2="96.5" id="Line-8-Copy-33"></line>
+                                    <line x1="0" y1="528" x2="427.5" y2="99.5" id="Line-8-Copy-34"></line>
+                                    <line x1="0" y1="531" x2="427.5" y2="102.5" id="Line-8-Copy-35"></line>
+                                    <line x1="0" y1="534" x2="427.5" y2="105.5" id="Line-8-Copy-36"></line>
+                                    <line x1="0" y1="537" x2="427.5" y2="108.5" id="Line-8-Copy-37"></line>
+                                    <line x1="0" y1="540" x2="427.5" y2="111.5" id="Line-8-Copy-38"></line>
+                                    <line x1="0" y1="543" x2="427.5" y2="114.5" id="Line-8-Copy-39"></line>
+                                    <line x1="0" y1="546" x2="427.5" y2="117.5" id="Line-8-Copy-40"></line>
+                                    <line x1="0" y1="549" x2="427.5" y2="120.5" id="Line-8-Copy-41"></line>
+                                    <line x1="0" y1="552" x2="427.5" y2="123.5" id="Line-8-Copy-42"></line>
+                                    <line x1="0" y1="555" x2="427.5" y2="126.5" id="Line-8-Copy-43"></line>
+                                    <line x1="0" y1="558" x2="427.5" y2="129.5" id="Line-8-Copy-44"></line>
+                                    <line x1="0" y1="561" x2="427.5" y2="132.5" id="Line-8-Copy-45"></line>
+                                    <line x1="0" y1="564" x2="427.5" y2="135.5" id="Line-8-Copy-46"></line>
+                                    <line x1="0" y1="567" x2="427.5" y2="138.5" id="Line-8-Copy-47"></line>
+                                    <line x1="0" y1="570" x2="427.5" y2="141.5" id="Line-8-Copy-48"></line>
+                                    <line x1="0" y1="573" x2="427.5" y2="144.5" id="Line-8-Copy-49"></line>
+                                    <line x1="0" y1="576" x2="427.5" y2="147.5" id="Line-8-Copy-50"></line>
+                                    <line x1="0" y1="579" x2="427.5" y2="150.5" id="Line-8-Copy-51"></line>
+                                    <line x1="0" y1="582" x2="427.5" y2="153.5" id="Line-8-Copy-52"></line>
+                                    <line x1="0" y1="585" x2="427.5" y2="156.5" id="Line-8-Copy-53"></line>
+                                    <line x1="0" y1="588" x2="427.5" y2="159.5" id="Line-8-Copy-54"></line>
+                                    <line x1="0" y1="591" x2="427.5" y2="162.5" id="Line-8-Copy-55"></line>
+                                    <line x1="0" y1="594" x2="427.5" y2="165.5" id="Line-8-Copy-56"></line>
+                                    <line x1="0" y1="597" x2="427.5" y2="168.5" id="Line-8-Copy-57"></line>
+                                    <line x1="0" y1="600" x2="427.5" y2="171.5" id="Line-8-Copy-58"></line>
+                                    <line x1="0" y1="603" x2="427.5" y2="174.5" id="Line-8-Copy-59"></line>
+                                    <line x1="0" y1="606" x2="427.5" y2="177.5" id="Line-8-Copy-60"></line>
+                                    <line x1="0" y1="609" x2="427.5" y2="180.5" id="Line-8-Copy-61"></line>
+                                    <line x1="0" y1="612" x2="427.5" y2="183.5" id="Line-8-Copy-62"></line>
+                                    <line x1="0" y1="615" x2="427.5" y2="186.5" id="Line-8-Copy-63"></line>
+                                    <line x1="0" y1="618" x2="427.5" y2="189.5" id="Line-8-Copy-64"></line>
+                                    <line x1="0" y1="621" x2="427.5" y2="192.5" id="Line-8-Copy-65"></line>
+                                    <line x1="0" y1="624" x2="427.5" y2="195.5" id="Line-8-Copy-66"></line>
+                                    <line x1="0" y1="627" x2="427.5" y2="198.5" id="Line-8-Copy-67"></line>
+                                    <line x1="0" y1="630" x2="427.5" y2="201.5" id="Line-8-Copy-68"></line>
+                                    <line x1="0" y1="633" x2="427.5" y2="204.5" id="Line-8-Copy-69"></line>
+                                    <line x1="0" y1="636" x2="427.5" y2="207.5" id="Line-8-Copy-70"></line>
+                                    <line x1="0" y1="639" x2="427.5" y2="210.5" id="Line-8-Copy-71"></line>
+                                    <line x1="0" y1="642" x2="427.5" y2="213.5" id="Line-8-Copy-72"></line>
+                                    <line x1="0" y1="645" x2="427.5" y2="216.5" id="Line-8-Copy-73"></line>
+                                    <line x1="0" y1="648" x2="427.5" y2="219.5" id="Line-8-Copy-74"></line>
+                                    <line x1="0" y1="651" x2="427.5" y2="222.5" id="Line-8-Copy-75"></line>
+                                    <line x1="0" y1="654" x2="427.5" y2="225.5" id="Line-8-Copy-76"></line>
+                                    <line x1="0" y1="657" x2="427.5" y2="228.5" id="Line-8-Copy-77"></line>
+                                    <line x1="0" y1="660" x2="427.5" y2="231.5" id="Line-8-Copy-78"></line>
+                                    <line x1="0" y1="663" x2="427.5" y2="234.5" id="Line-8-Copy-79"></line>
+                                    <line x1="0" y1="666" x2="427.5" y2="237.5" id="Line-8-Copy-80"></line>
+                                    <line x1="0" y1="669" x2="427.5" y2="240.5" id="Line-8-Copy-81"></line>
+                                    <line x1="0" y1="672" x2="427.5" y2="243.5" id="Line-8-Copy-82"></line>
+                                    <line x1="0" y1="675" x2="427.5" y2="246.5" id="Line-8-Copy-83"></line>
+                                    <line x1="0" y1="678" x2="427.5" y2="249.5" id="Line-8-Copy-84"></line>
+                                    <line x1="0" y1="681" x2="427.5" y2="252.5" id="Line-8-Copy-85"></line>
+                                    <line x1="0" y1="684" x2="427.5" y2="255.5" id="Line-8-Copy-86"></line>
+                                    <line x1="0" y1="687" x2="427.5" y2="258.5" id="Line-8-Copy-87"></line>
+                                    <line x1="0" y1="690" x2="427.5" y2="261.5" id="Line-8-Copy-88"></line>
+                                    <line x1="0" y1="693" x2="427.5" y2="264.5" id="Line-8-Copy-89"></line>
+                                    <line x1="0" y1="696" x2="427.5" y2="267.5" id="Line-8-Copy-90"></line>
+                                    <line x1="0" y1="699" x2="427.5" y2="270.5" id="Line-8-Copy-91"></line>
+                                    <line x1="0" y1="702" x2="427.5" y2="273.5" id="Line-8-Copy-92"></line>
+                                    <line x1="0" y1="705" x2="427.5" y2="276.5" id="Line-8-Copy-93"></line>
+                                    <line x1="0" y1="708" x2="427.5" y2="279.5" id="Line-8-Copy-94"></line>
+                                    <line x1="0" y1="711" x2="427.5" y2="282.5" id="Line-8-Copy-95"></line>
+                                    <line x1="0" y1="714" x2="427.5" y2="285.5" id="Line-8-Copy-96"></line>
+                                    <line x1="0" y1="717" x2="427.5" y2="288.5" id="Line-8-Copy-97"></line>
+                                    <line x1="0" y1="720" x2="427.5" y2="291.5" id="Line-8-Copy-98"></line>
+                                    <line x1="0" y1="723" x2="427.5" y2="294.5" id="Line-8-Copy-99"></line>
+                                    <line x1="0" y1="726" x2="427.5" y2="297.5" id="Line-8-Copy-100"></line>
+                                    <line x1="0" y1="729" x2="427.5" y2="300.5" id="Line-8-Copy-101"></line>
+                                    <line x1="0" y1="732" x2="427.5" y2="303.5" id="Line-8-Copy-102"></line>
+                                    <line x1="0" y1="735" x2="427.5" y2="306.5" id="Line-8-Copy-103"></line>
+                                    <line x1="0" y1="738" x2="427.5" y2="309.5" id="Line-8-Copy-104"></line>
+                                    <line x1="0" y1="741" x2="427.5" y2="312.5" id="Line-8-Copy-105"></line>
+                                    <line x1="0" y1="744" x2="427.5" y2="315.5" id="Line-8-Copy-106"></line>
+                                    <line x1="0" y1="747" x2="427.5" y2="318.5" id="Line-8-Copy-107"></line>
+                                    <line x1="0" y1="750" x2="427.5" y2="321.5" id="Line-8-Copy-108"></line>
+                                    <line x1="0" y1="753" x2="427.5" y2="324.5" id="Line-8-Copy-109"></line>
+                                    <line x1="0" y1="756" x2="427.5" y2="327.5" id="Line-8-Copy-110"></line>
+                                    <line x1="0" y1="759" x2="427.5" y2="330.5" id="Line-8-Copy-111"></line>
+                                    <line x1="0" y1="762" x2="427.5" y2="333.5" id="Line-8-Copy-112"></line>
+                                    <line x1="0" y1="765" x2="427.5" y2="336.5" id="Line-8-Copy-113"></line>
+                                    <line x1="0" y1="768" x2="427.5" y2="339.5" id="Line-8-Copy-114"></line>
+                                    <line x1="0" y1="771" x2="427.5" y2="342.5" id="Line-8-Copy-115"></line>
+                                    <line x1="0" y1="774" x2="427.5" y2="345.5" id="Line-8-Copy-116"></line>
+                                    <line x1="0" y1="777" x2="427.5" y2="348.5" id="Line-8-Copy-117"></line>
+                                    <line x1="0" y1="780" x2="427.5" y2="351.5" id="Line-8-Copy-118"></line>
+                                    <line x1="0" y1="783" x2="427.5" y2="354.5" id="Line-8-Copy-119"></line>
+                                    <line x1="0" y1="786" x2="427.5" y2="357.5" id="Line-8-Copy-120"></line>
+                                    <line x1="0" y1="789" x2="427.5" y2="360.5" id="Line-8-Copy-121"></line>
+                                    <line x1="0" y1="792" x2="427.5" y2="363.5" id="Line-8-Copy-122"></line>
+                                    <line x1="0" y1="795" x2="427.5" y2="366.5" id="Line-8-Copy-123"></line>
+                                    <line x1="0" y1="798" x2="427.5" y2="369.5" id="Line-8-Copy-124"></line>
+                                    <line x1="0" y1="801" x2="427.5" y2="372.5" id="Line-8-Copy-125"></line>
+                                    <line x1="0" y1="804" x2="427.5" y2="375.5" id="Line-8-Copy-126"></line>
+                                    <line x1="0" y1="807" x2="427.5" y2="378.5" id="Line-8-Copy-127"></line>
+                                    <line x1="0" y1="810" x2="427.5" y2="381.5" id="Line-8-Copy-128"></line>
+                                    <line x1="0" y1="813" x2="427.5" y2="384.5" id="Line-8-Copy-129"></line>
+                                    <line x1="0" y1="816" x2="427.5" y2="387.5" id="Line-8-Copy-130"></line>
+                                    <line x1="0" y1="819" x2="427.5" y2="390.5" id="Line-8-Copy-131"></line>
+                                    <line x1="0" y1="822" x2="427.5" y2="393.5" id="Line-8-Copy-132"></line>
+                                    <line x1="0" y1="825" x2="427.5" y2="396.5" id="Line-8-Copy-133"></line>
+                                    <line x1="0" y1="828" x2="427.5" y2="399.5" id="Line-8-Copy-134"></line>
+                                    <line x1="0" y1="831" x2="427.5" y2="402.5" id="Line-8-Copy-135"></line>
+                                    <line x1="0" y1="834" x2="427.5" y2="405.5" id="Line-8-Copy-136"></line>
+                                    <line x1="0" y1="837" x2="427.5" y2="408.5" id="Line-8-Copy-137"></line>
+                                    <line x1="0" y1="840" x2="427.5" y2="411.5" id="Line-8-Copy-138"></line>
+                                    <line x1="0" y1="843" x2="427.5" y2="414.5" id="Line-8-Copy-139"></line>
+                                    <line x1="0" y1="846" x2="427.5" y2="417.5" id="Line-8-Copy-140"></line>
+                                    <line x1="0" y1="849" x2="427.5" y2="420.5" id="Line-8-Copy-141"></line>
+                                    <line x1="0" y1="852" x2="427.5" y2="423.5" id="Line-8-Copy-142"></line>
+                                    <line x1="0" y1="855" x2="427.5" y2="426.5" id="Line-8-Copy-143"></line>
+                                    <line x1="0" y1="858" x2="427.5" y2="429.5" id="Line-8-Copy-144"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Path-Copy-10" fill-rule="nonzero" transform="translate(560.000000, 399.500000) rotate(-90.000000) translate(-560.000000, -399.500000) ">
+                    <use fill="#FFFFFF" xlink:href="#path-22"></use>
+                    <use fill="url(#linearGradient-21)" xlink:href="#path-22"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
+                </g>
+                <g id="Group-7" transform="translate(277.000000, 15.500000)" fill-rule="nonzero">
+                    <g id="Group-9-Copy-3" filter="url(#filter-24)" transform="translate(0.000000, 240.000000)">
+                        <polygon id="Rectangle-Copy-21" fill="url(#linearGradient-25)" transform="translate(8.500000, 103.000000) rotate(-270.000000) translate(-8.500000, -103.000000) " points="-94.5 95 111.5 95 111.5 111 -94.5 111"></polygon>
+                        <rect id="Rectangle-Copy-25" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-6)" transform="translate(8.500000, 202.500000) rotate(-270.000000) translate(-8.500000, -202.500000) " x="5.25" y="194.25" width="6.5" height="16.5"></rect>
+                    </g>
+                    <g id="Group-9-Copy-4" filter="url(#filter-26)" transform="translate(0.000000, 2.000000)">
+                        <polygon id="Rectangle-Copy-21" fill="url(#linearGradient-25)" transform="translate(8.500000, 103.000000) rotate(-270.000000) translate(-8.500000, -103.000000) " points="-94.5 95 111.5 95 111.5 111 -94.5 111"></polygon>
+                        <rect id="Rectangle-Copy-25" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-6)" transform="translate(8.500000, 202.500000) rotate(-270.000000) translate(-8.500000, -202.500000) " x="5.25" y="194.25" width="6.5" height="16.5"></rect>
+                    </g>
+                    <rect id="Rectangle-Copy-32" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" transform="translate(8.500000, 4.000000) rotate(-270.000000) translate(-8.500000, -4.000000) " x="5.25" y="-3.75" width="6.5" height="15.5"></rect>
+                    <rect id="Rectangle-Copy-33" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" transform="translate(8.500000, 243.500000) rotate(-270.000000) translate(-8.500000, -243.500000) " x="5.25" y="235.75" width="6.5" height="15.5"></rect>
+                </g>
+                <g id="Group-7-Copy" transform="translate(141.000000, 15.500000)" fill-rule="nonzero">
+                    <g id="Group-9-Copy-3" filter="url(#filter-28)" transform="translate(0.000000, 236.000000)">
+                        <polygon id="Rectangle-Copy-21" fill="url(#linearGradient-29)" transform="translate(8.500000, 105.000000) rotate(-270.000000) translate(-8.500000, -105.000000) " points="-96 97 113 97 113 113 -96 113"></polygon>
+                        <path d="M11.75,198.25 L5.25,198.25 L5.25,214.75 L11.75,214.75 L11.75,198.25 Z" id="Rectangle-Copy-25" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-6)" transform="translate(8.500000, 206.500000) rotate(-270.000000) translate(-8.500000, -206.500000) "></path>
+                    </g>
+                    <g id="Group-9-Copy-4" filter="url(#filter-30)" transform="translate(0.000000, 2.000000)" fill="url(#linearGradient-31)">
+                        <polygon id="Rectangle-Copy-21" transform="translate(8.500000, 102.500000) rotate(-270.000000) translate(-8.500000, -102.500000) " points="-94 94.5 111 94.5 111 110.5 -94 110.5"></polygon>
+                    </g>
+                    <rect id="Rectangle-Copy-32" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" transform="translate(8.500000, 4.000000) rotate(-270.000000) translate(-8.500000, -4.000000) " x="5.25" y="-3.75" width="6.5" height="15.5"></rect>
+                </g>
+                <g id="Group-9-Copy-5" filter="url(#filter-32)" transform="translate(457.000000, 8.500000) rotate(-270.000000) translate(-457.000000, -8.500000) translate(448.500000, -220.000000)" fill="url(#linearGradient-33)" fill-rule="nonzero">
+                    <polygon id="Rectangle-Copy-21" transform="translate(8.500000, 228.500000) rotate(-270.000000) translate(-8.500000, -228.500000) " points="-219.5 220.5 236.5 220.5 236.5 236.5 -219.5 236.5"></polygon>
+                </g>
+                <g id="Group-9-Copy-6" filter="url(#filter-34)" transform="translate(457.000000, 469.500000) rotate(-270.000000) translate(-457.000000, -469.500000) translate(448.500000, 241.000000)" fill="url(#linearGradient-35)" fill-rule="nonzero">
+                    <polygon id="Rectangle-Copy-21" transform="translate(8.500000, 228.750000) rotate(-270.000000) translate(-8.500000, -228.750000) " points="-219.749079 220.75 236.75 220.75 236.75 236.75 -219.749079 236.75"></polygon>
+                </g>
+                <path d="M305.581418,183.534917 L529.581418,159.964937 C531.778428,159.733761 533.746862,161.327384 533.978038,163.524394 C533.992669,163.663441 534,163.80316 534,163.942975 L534,321.057025 C534,323.266164 532.209139,325.057025 530,325.057025 C529.860185,325.057025 529.720466,325.049694 529.581418,325.035063 L305.581418,301.465083 C303.545563,301.250864 302,299.53414 302,297.487045 L302,187.512955 C302,185.46586 303.545563,183.749136 305.581418,183.534917 Z" id="Rectangle-Copy-67" fill="#000000" fill-rule="nonzero" opacity="0.32047526" filter="url(#filter-36)" transform="translate(418.000000, 242.500000) rotate(-270.000000) translate(-418.000000, -242.500000) "></path>
+                <g id="Group-14" filter="url(#filter-37)" transform="translate(403.000000, 140.500000)" fill="url(#linearGradient-3)" fill-rule="nonzero" stroke="#636262" stroke-width="0.5">
+                    <rect id="Rectangle-Copy-18" transform="translate(14.500000, 3.500000) rotate(-270.000000) translate(-14.500000, -3.500000) " x="11.25" y="-10.75" width="6.5" height="28.5"></rect>
+                </g>
+                <path d="M586.581418,183.534917 L810.581418,159.964937 C812.778428,159.733761 814.746862,161.327384 814.978038,163.524394 C814.992669,163.663441 815,163.80316 815,163.942975 L815,321.057025 C815,323.266164 813.209139,325.057025 811,325.057025 C810.860185,325.057025 810.720466,325.049694 810.581418,325.035063 L586.581418,301.465083 C584.545563,301.250864 583,299.53414 583,297.487045 L583,187.512955 C583,185.46586 584.545563,183.749136 586.581418,183.534917 Z" id="Rectangle-Copy-69" fill="#000000" fill-rule="nonzero" opacity="0.32047526" filter="url(#filter-38)" transform="translate(699.000000, 242.500000) rotate(-270.000000) translate(-699.000000, -242.500000) "></path>
+                <g id="Path-Copy-8" fill-rule="nonzero" transform="translate(25.000000, 469.500000) rotate(-360.000000) translate(-25.000000, -469.500000) ">
+                    <use fill="#FFFFFF" xlink:href="#path-39"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-39"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-40)" xlink:href="#path-39"></use>
+                </g>
+                <g id="Path-Copy-8" fill-rule="nonzero" transform="translate(5.000000, 8.500000) scale(-1, 1) rotate(-360.000000) translate(-5.000000, -8.500000) ">
+                    <use fill="#FFFFFF" xlink:href="#path-41"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-41"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-42)" xlink:href="#path-41"></use>
+                </g>
+                <g id="Group-4" transform="translate(350.000000, 146.500000)">
+                    <g id="Group-6">
+                        <mask id="mask-44" fill="white">
+                            <use xlink:href="#path-43"></use>
+                        </mask>
+                        <use id="Rectangle-Copy-67" fill="url(#linearGradient-7)" fill-rule="nonzero" transform="translate(68.000000, 95.500000) rotate(-270.000000) translate(-68.000000, -95.500000) " xlink:href="#path-43"></use>
+                        <path d="M162.932287,31.5244377 C162.946943,31.6636029 162.954286,31.8034413 162.954286,31.9433762 L162.954286,159.056624 C162.954286,161.265763 161.163425,163.056624 158.954286,163.056624 C158.814351,163.056624 158.674512,163.049281 158.535347,163.034625 L-23.3732242,143.877135 C-25.4089241,143.662748 -26.9542857,141.946092 -26.9542857,139.899134 L-26.9542857,51.1008655 C-26.9542857,49.0539078 -25.4089241,47.337252 -23.3732242,47.1228647 L158.535347,27.9653754 C160.732336,27.734002 162.700913,29.3274485 162.932287,31.5244377 Z M162.435036,31.576805 C162.239333,29.7185183 160.623225,28.3537116 158.779236,28.4476631 L158.587715,28.4626255 L-23.3208569,47.6201148 C-25.0384787,47.8010041 -26.3571534,49.2041631 -26.4491536,50.9101158 L-26.4542857,51.1008655 L-26.4542857,139.899134 C-26.4542857,141.626255 -25.1969547,143.084637 -23.51002,143.354803 L-23.3208569,143.379885 L158.587715,162.537375 C158.709484,162.550199 158.831843,162.556624 158.954286,162.556624 C160.822849,162.556624 162.349412,161.092346 162.449107,159.248659 L162.454286,159.056624 L162.454286,31.9433762 L162.44947,31.759838 L162.435036,31.576805 Z" id="Rectangle-Copy-67" fill="#2C405A" fill-rule="nonzero" mask="url(#mask-44)" transform="translate(68.000000, 95.499838) rotate(-270.000000) translate(-68.000000, -95.499838) "></path>
+                    </g>
+                    <g id="Mask" fill-rule="nonzero" transform="translate(67.500000, 115.000000) rotate(-270.000000) translate(-67.500000, -115.000000) ">
+                        <use fill="url(#linearGradient-10)" xlink:href="#path-45"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-46)" xlink:href="#path-45"></use>
+                    </g>
+                    <path d="M62.5838427,21.27439 L76.5,18 L76.5,18 L76.5,111 L62.5838427,107.72561 C60.7769799,107.300466 59.5,105.688147 59.5,103.831941 L59.5,25.1680586 C59.5,23.3118527 60.7769799,21.6995341 62.5838427,21.27439 Z" id="Rectangle-Copy-79" fill="url(#linearGradient-13)" fill-rule="nonzero" transform="translate(68.000000, 64.500000) rotate(-270.000000) translate(-68.000000, -64.500000) "></path>
+                    <g id="Mask" fill-rule="nonzero" transform="translate(67.500000, 114.990459) rotate(-270.000000) translate(-67.500000, -114.990459) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-48)" xlink:href="#path-47"></use>
+                        <path stroke="#7F7F7F" stroke-width="0.5" d="M121.988498,58.1856766 C123.431348,58.0444293 124.794856,58.5013844 125.832963,59.354364 C126.87401,60.2097599 127.587811,61.4634271 127.72621,62.9114644 L127.72621,62.9114644 L127.75,166.570581 C127.75,168.020328 127.162374,169.332828 126.212311,170.282891 C125.262247,171.232954 123.949747,171.820581 122.5,171.820581 C122.321815,171.820581 122.143746,171.811509 121.966484,171.793402 L121.966484,171.793402 L11.9664839,160.556798 C10.6269961,160.419968 9.44787508,159.787492 8.60362607,158.852609 C7.75937706,157.917725 7.25,156.680435 7.25,155.333977 L7.25,155.333977 L7.25,74.1791119 C7.25,72.8284188 7.76249094,71.5879613 8.61104869,70.652278 C9.45960643,69.7165946 10.644231,69.0856854 11.9884982,68.9540889 L11.9884982,68.9540889 Z M122.23207,60.6737828 L12.2320705,71.4421951 C11.5279305,71.5111266 10.9074129,71.8416029 10.4629303,72.3317227 C10.0184476,72.8218425 9.75,73.471606 9.75,74.1791119 L9.75,155.333977 C9.75,156.039264 10.0168166,156.687369 10.4590422,157.17707 C10.9012679,157.66677 11.5189027,157.998067 12.2205392,158.06974 L122.512448,169.320553 C123.266903,169.31721 123.949612,169.010056 124.444544,168.515124 C124.942196,168.017472 125.25,167.329972 125.25,166.570581 L125.213492,62.9634118 C125.097509,62.2551234 124.715818,61.647992 124.18217,61.2351887 C123.64692,60.8211456 122.9587,60.6026497 122.23207,60.6737828 Z" fill="url(#linearGradient-14)" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="Group-2-Copy" transform="translate(28.000000, 119.000000)">
+                        <g id="Group-69-Copy-2" transform="translate(40.500000, 13.000000) rotate(-90.000000) translate(-40.500000, -13.000000) translate(28.000000, -27.000000)">
+                            <mask id="mask-50" fill="white">
+                                <use xlink:href="#path-49"></use>
+                            </mask>
+                            <g id="Mask" fill-rule="nonzero">
+                                <use fill="url(#linearGradient-17)" xlink:href="#path-49"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-51)" xlink:href="#path-49"></use>
+                            </g>
+                            <g id="Group-69" opacity="0.603050595" mask="url(#mask-50)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="0.5">
+                                <g transform="translate(-256.000000, -341.000000)" opacity="0.148297991">
+                                    <line x1="0" y1="429" x2="427.5" y2="0.5" id="Line-8-Copy"></line>
+                                    <line x1="0" y1="432" x2="427.5" y2="3.5" id="Line-8-Copy-2"></line>
+                                    <line x1="0" y1="435" x2="427.5" y2="6.5" id="Line-8-Copy-3"></line>
+                                    <line x1="0" y1="438" x2="427.5" y2="9.5" id="Line-8-Copy-4"></line>
+                                    <line x1="0" y1="441" x2="427.5" y2="12.5" id="Line-8-Copy-5"></line>
+                                    <line x1="0" y1="444" x2="427.5" y2="15.5" id="Line-8-Copy-6"></line>
+                                    <line x1="0" y1="447" x2="427.5" y2="18.5" id="Line-8-Copy-7"></line>
+                                    <line x1="0" y1="450" x2="427.5" y2="21.5" id="Line-8-Copy-8"></line>
+                                    <line x1="0" y1="453" x2="427.5" y2="24.5" id="Line-8-Copy-9"></line>
+                                    <line x1="0" y1="456" x2="427.5" y2="27.5" id="Line-8-Copy-10"></line>
+                                    <line x1="0" y1="459" x2="427.5" y2="30.5" id="Line-8-Copy-11"></line>
+                                    <line x1="0" y1="462" x2="427.5" y2="33.5" id="Line-8-Copy-12"></line>
+                                    <line x1="0" y1="465" x2="427.5" y2="36.5" id="Line-8-Copy-13"></line>
+                                    <line x1="0" y1="468" x2="427.5" y2="39.5" id="Line-8-Copy-14"></line>
+                                    <line x1="0" y1="471" x2="427.5" y2="42.5" id="Line-8-Copy-15"></line>
+                                    <line x1="0" y1="474" x2="427.5" y2="45.5" id="Line-8-Copy-16"></line>
+                                    <line x1="0" y1="477" x2="427.5" y2="48.5" id="Line-8-Copy-17"></line>
+                                    <line x1="0" y1="480" x2="427.5" y2="51.5" id="Line-8-Copy-18"></line>
+                                    <line x1="0" y1="483" x2="427.5" y2="54.5" id="Line-8-Copy-19"></line>
+                                    <line x1="0" y1="486" x2="427.5" y2="57.5" id="Line-8-Copy-20"></line>
+                                    <line x1="0" y1="489" x2="427.5" y2="60.5" id="Line-8-Copy-21"></line>
+                                    <line x1="0" y1="492" x2="427.5" y2="63.5" id="Line-8-Copy-22"></line>
+                                    <line x1="0" y1="495" x2="427.5" y2="66.5" id="Line-8-Copy-23"></line>
+                                    <line x1="0" y1="498" x2="427.5" y2="69.5" id="Line-8-Copy-24"></line>
+                                    <line x1="0" y1="501" x2="427.5" y2="72.5" id="Line-8-Copy-25"></line>
+                                    <line x1="0" y1="504" x2="427.5" y2="75.5" id="Line-8-Copy-26"></line>
+                                    <line x1="0" y1="507" x2="427.5" y2="78.5" id="Line-8-Copy-27"></line>
+                                    <line x1="0" y1="510" x2="427.5" y2="81.5" id="Line-8-Copy-28"></line>
+                                    <line x1="0" y1="513" x2="427.5" y2="84.5" id="Line-8-Copy-29"></line>
+                                    <line x1="0" y1="516" x2="427.5" y2="87.5" id="Line-8-Copy-30"></line>
+                                    <line x1="0" y1="519" x2="427.5" y2="90.5" id="Line-8-Copy-31"></line>
+                                    <line x1="0" y1="522" x2="427.5" y2="93.5" id="Line-8-Copy-32"></line>
+                                    <line x1="0" y1="525" x2="427.5" y2="96.5" id="Line-8-Copy-33"></line>
+                                    <line x1="0" y1="528" x2="427.5" y2="99.5" id="Line-8-Copy-34"></line>
+                                    <line x1="0" y1="531" x2="427.5" y2="102.5" id="Line-8-Copy-35"></line>
+                                    <line x1="0" y1="534" x2="427.5" y2="105.5" id="Line-8-Copy-36"></line>
+                                    <line x1="0" y1="537" x2="427.5" y2="108.5" id="Line-8-Copy-37"></line>
+                                    <line x1="0" y1="540" x2="427.5" y2="111.5" id="Line-8-Copy-38"></line>
+                                    <line x1="0" y1="543" x2="427.5" y2="114.5" id="Line-8-Copy-39"></line>
+                                    <line x1="0" y1="546" x2="427.5" y2="117.5" id="Line-8-Copy-40"></line>
+                                    <line x1="0" y1="549" x2="427.5" y2="120.5" id="Line-8-Copy-41"></line>
+                                    <line x1="0" y1="552" x2="427.5" y2="123.5" id="Line-8-Copy-42"></line>
+                                    <line x1="0" y1="555" x2="427.5" y2="126.5" id="Line-8-Copy-43"></line>
+                                    <line x1="0" y1="558" x2="427.5" y2="129.5" id="Line-8-Copy-44"></line>
+                                    <line x1="0" y1="561" x2="427.5" y2="132.5" id="Line-8-Copy-45"></line>
+                                    <line x1="0" y1="564" x2="427.5" y2="135.5" id="Line-8-Copy-46"></line>
+                                    <line x1="0" y1="567" x2="427.5" y2="138.5" id="Line-8-Copy-47"></line>
+                                    <line x1="0" y1="570" x2="427.5" y2="141.5" id="Line-8-Copy-48"></line>
+                                    <line x1="0" y1="573" x2="427.5" y2="144.5" id="Line-8-Copy-49"></line>
+                                    <line x1="0" y1="576" x2="427.5" y2="147.5" id="Line-8-Copy-50"></line>
+                                    <line x1="0" y1="579" x2="427.5" y2="150.5" id="Line-8-Copy-51"></line>
+                                    <line x1="0" y1="582" x2="427.5" y2="153.5" id="Line-8-Copy-52"></line>
+                                    <line x1="0" y1="585" x2="427.5" y2="156.5" id="Line-8-Copy-53"></line>
+                                    <line x1="0" y1="588" x2="427.5" y2="159.5" id="Line-8-Copy-54"></line>
+                                    <line x1="0" y1="591" x2="427.5" y2="162.5" id="Line-8-Copy-55"></line>
+                                    <line x1="0" y1="594" x2="427.5" y2="165.5" id="Line-8-Copy-56"></line>
+                                    <line x1="0" y1="597" x2="427.5" y2="168.5" id="Line-8-Copy-57"></line>
+                                    <line x1="0" y1="600" x2="427.5" y2="171.5" id="Line-8-Copy-58"></line>
+                                    <line x1="0" y1="603" x2="427.5" y2="174.5" id="Line-8-Copy-59"></line>
+                                    <line x1="0" y1="606" x2="427.5" y2="177.5" id="Line-8-Copy-60"></line>
+                                    <line x1="0" y1="609" x2="427.5" y2="180.5" id="Line-8-Copy-61"></line>
+                                    <line x1="0" y1="612" x2="427.5" y2="183.5" id="Line-8-Copy-62"></line>
+                                    <line x1="0" y1="615" x2="427.5" y2="186.5" id="Line-8-Copy-63"></line>
+                                    <line x1="0" y1="618" x2="427.5" y2="189.5" id="Line-8-Copy-64"></line>
+                                    <line x1="0" y1="621" x2="427.5" y2="192.5" id="Line-8-Copy-65"></line>
+                                    <line x1="0" y1="624" x2="427.5" y2="195.5" id="Line-8-Copy-66"></line>
+                                    <line x1="0" y1="627" x2="427.5" y2="198.5" id="Line-8-Copy-67"></line>
+                                    <line x1="0" y1="630" x2="427.5" y2="201.5" id="Line-8-Copy-68"></line>
+                                    <line x1="0" y1="633" x2="427.5" y2="204.5" id="Line-8-Copy-69"></line>
+                                    <line x1="0" y1="636" x2="427.5" y2="207.5" id="Line-8-Copy-70"></line>
+                                    <line x1="0" y1="639" x2="427.5" y2="210.5" id="Line-8-Copy-71"></line>
+                                    <line x1="0" y1="642" x2="427.5" y2="213.5" id="Line-8-Copy-72"></line>
+                                    <line x1="0" y1="645" x2="427.5" y2="216.5" id="Line-8-Copy-73"></line>
+                                    <line x1="0" y1="648" x2="427.5" y2="219.5" id="Line-8-Copy-74"></line>
+                                    <line x1="0" y1="651" x2="427.5" y2="222.5" id="Line-8-Copy-75"></line>
+                                    <line x1="0" y1="654" x2="427.5" y2="225.5" id="Line-8-Copy-76"></line>
+                                    <line x1="0" y1="657" x2="427.5" y2="228.5" id="Line-8-Copy-77"></line>
+                                    <line x1="0" y1="660" x2="427.5" y2="231.5" id="Line-8-Copy-78"></line>
+                                    <line x1="0" y1="663" x2="427.5" y2="234.5" id="Line-8-Copy-79"></line>
+                                    <line x1="0" y1="666" x2="427.5" y2="237.5" id="Line-8-Copy-80"></line>
+                                    <line x1="0" y1="669" x2="427.5" y2="240.5" id="Line-8-Copy-81"></line>
+                                    <line x1="0" y1="672" x2="427.5" y2="243.5" id="Line-8-Copy-82"></line>
+                                    <line x1="0" y1="675" x2="427.5" y2="246.5" id="Line-8-Copy-83"></line>
+                                    <line x1="0" y1="678" x2="427.5" y2="249.5" id="Line-8-Copy-84"></line>
+                                    <line x1="0" y1="681" x2="427.5" y2="252.5" id="Line-8-Copy-85"></line>
+                                    <line x1="0" y1="684" x2="427.5" y2="255.5" id="Line-8-Copy-86"></line>
+                                    <line x1="0" y1="687" x2="427.5" y2="258.5" id="Line-8-Copy-87"></line>
+                                    <line x1="0" y1="690" x2="427.5" y2="261.5" id="Line-8-Copy-88"></line>
+                                    <line x1="0" y1="693" x2="427.5" y2="264.5" id="Line-8-Copy-89"></line>
+                                    <line x1="0" y1="696" x2="427.5" y2="267.5" id="Line-8-Copy-90"></line>
+                                    <line x1="0" y1="699" x2="427.5" y2="270.5" id="Line-8-Copy-91"></line>
+                                    <line x1="0" y1="702" x2="427.5" y2="273.5" id="Line-8-Copy-92"></line>
+                                    <line x1="0" y1="705" x2="427.5" y2="276.5" id="Line-8-Copy-93"></line>
+                                    <line x1="0" y1="708" x2="427.5" y2="279.5" id="Line-8-Copy-94"></line>
+                                    <line x1="0" y1="711" x2="427.5" y2="282.5" id="Line-8-Copy-95"></line>
+                                    <line x1="0" y1="714" x2="427.5" y2="285.5" id="Line-8-Copy-96"></line>
+                                    <line x1="0" y1="717" x2="427.5" y2="288.5" id="Line-8-Copy-97"></line>
+                                    <line x1="0" y1="720" x2="427.5" y2="291.5" id="Line-8-Copy-98"></line>
+                                    <line x1="0" y1="723" x2="427.5" y2="294.5" id="Line-8-Copy-99"></line>
+                                    <line x1="0" y1="726" x2="427.5" y2="297.5" id="Line-8-Copy-100"></line>
+                                    <line x1="0" y1="729" x2="427.5" y2="300.5" id="Line-8-Copy-101"></line>
+                                    <line x1="0" y1="732" x2="427.5" y2="303.5" id="Line-8-Copy-102"></line>
+                                    <line x1="0" y1="735" x2="427.5" y2="306.5" id="Line-8-Copy-103"></line>
+                                    <line x1="0" y1="738" x2="427.5" y2="309.5" id="Line-8-Copy-104"></line>
+                                    <line x1="0" y1="741" x2="427.5" y2="312.5" id="Line-8-Copy-105"></line>
+                                    <line x1="0" y1="744" x2="427.5" y2="315.5" id="Line-8-Copy-106"></line>
+                                    <line x1="0" y1="747" x2="427.5" y2="318.5" id="Line-8-Copy-107"></line>
+                                    <line x1="0" y1="750" x2="427.5" y2="321.5" id="Line-8-Copy-108"></line>
+                                    <line x1="0" y1="753" x2="427.5" y2="324.5" id="Line-8-Copy-109"></line>
+                                    <line x1="0" y1="756" x2="427.5" y2="327.5" id="Line-8-Copy-110"></line>
+                                    <line x1="0" y1="759" x2="427.5" y2="330.5" id="Line-8-Copy-111"></line>
+                                    <line x1="0" y1="762" x2="427.5" y2="333.5" id="Line-8-Copy-112"></line>
+                                    <line x1="0" y1="765" x2="427.5" y2="336.5" id="Line-8-Copy-113"></line>
+                                    <line x1="0" y1="768" x2="427.5" y2="339.5" id="Line-8-Copy-114"></line>
+                                    <line x1="0" y1="771" x2="427.5" y2="342.5" id="Line-8-Copy-115"></line>
+                                    <line x1="0" y1="774" x2="427.5" y2="345.5" id="Line-8-Copy-116"></line>
+                                    <line x1="0" y1="777" x2="427.5" y2="348.5" id="Line-8-Copy-117"></line>
+                                    <line x1="0" y1="780" x2="427.5" y2="351.5" id="Line-8-Copy-118"></line>
+                                    <line x1="0" y1="783" x2="427.5" y2="354.5" id="Line-8-Copy-119"></line>
+                                    <line x1="0" y1="786" x2="427.5" y2="357.5" id="Line-8-Copy-120"></line>
+                                    <line x1="0" y1="789" x2="427.5" y2="360.5" id="Line-8-Copy-121"></line>
+                                    <line x1="0" y1="792" x2="427.5" y2="363.5" id="Line-8-Copy-122"></line>
+                                    <line x1="0" y1="795" x2="427.5" y2="366.5" id="Line-8-Copy-123"></line>
+                                    <line x1="0" y1="798" x2="427.5" y2="369.5" id="Line-8-Copy-124"></line>
+                                    <line x1="0" y1="801" x2="427.5" y2="372.5" id="Line-8-Copy-125"></line>
+                                    <line x1="0" y1="804" x2="427.5" y2="375.5" id="Line-8-Copy-126"></line>
+                                    <line x1="0" y1="807" x2="427.5" y2="378.5" id="Line-8-Copy-127"></line>
+                                    <line x1="0" y1="810" x2="427.5" y2="381.5" id="Line-8-Copy-128"></line>
+                                    <line x1="0" y1="813" x2="427.5" y2="384.5" id="Line-8-Copy-129"></line>
+                                    <line x1="0" y1="816" x2="427.5" y2="387.5" id="Line-8-Copy-130"></line>
+                                    <line x1="0" y1="819" x2="427.5" y2="390.5" id="Line-8-Copy-131"></line>
+                                    <line x1="0" y1="822" x2="427.5" y2="393.5" id="Line-8-Copy-132"></line>
+                                    <line x1="0" y1="825" x2="427.5" y2="396.5" id="Line-8-Copy-133"></line>
+                                    <line x1="0" y1="828" x2="427.5" y2="399.5" id="Line-8-Copy-134"></line>
+                                    <line x1="0" y1="831" x2="427.5" y2="402.5" id="Line-8-Copy-135"></line>
+                                    <line x1="0" y1="834" x2="427.5" y2="405.5" id="Line-8-Copy-136"></line>
+                                    <line x1="0" y1="837" x2="427.5" y2="408.5" id="Line-8-Copy-137"></line>
+                                    <line x1="0" y1="840" x2="427.5" y2="411.5" id="Line-8-Copy-138"></line>
+                                    <line x1="0" y1="843" x2="427.5" y2="414.5" id="Line-8-Copy-139"></line>
+                                    <line x1="0" y1="846" x2="427.5" y2="417.5" id="Line-8-Copy-140"></line>
+                                    <line x1="0" y1="849" x2="427.5" y2="420.5" id="Line-8-Copy-141"></line>
+                                    <line x1="0" y1="852" x2="427.5" y2="423.5" id="Line-8-Copy-142"></line>
+                                    <line x1="0" y1="855" x2="427.5" y2="426.5" id="Line-8-Copy-143"></line>
+                                    <line x1="0" y1="858" x2="427.5" y2="429.5" id="Line-8-Copy-144"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-9" filter="url(#filter-52)" transform="translate(402.500000, 336.500000)" fill-rule="nonzero">
+                    <polygon id="Rectangle-Copy-21" fill="url(#linearGradient-5)" transform="translate(15.500000, 66.000000) rotate(-270.000000) translate(-15.500000, -66.000000) " points="-43.5 58 74.5 58 74.5 74 -43.5 74"></polygon>
+                    <rect id="Rectangle-Copy-23" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-3)" transform="translate(15.000000, 3.500000) rotate(-270.000000) translate(-15.000000, -3.500000) " x="11.75" y="-10.75" width="6.5" height="28.5"></rect>
+                    <rect id="Rectangle-Copy-25" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" transform="translate(15.500000, 121.500000) rotate(-270.000000) translate(-15.500000, -121.500000) " x="12.25" y="113.75" width="6.5" height="15.5"></rect>
+                </g>
+                <g id="Group-9-Copy-2" filter="url(#filter-53)" transform="translate(684.000000, 336.500000)" fill-rule="nonzero">
+                    <polygon id="Rectangle-Copy-21" fill="url(#linearGradient-5)" transform="translate(15.500000, 66.000000) rotate(-270.000000) translate(-15.500000, -66.000000) " points="-43.5 58 74.5 58 74.5 74 -43.5 74"></polygon>
+                    <rect id="Rectangle-Copy-23" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-3)" transform="translate(15.000000, 3.500000) rotate(-270.000000) translate(-15.000000, -3.500000) " x="11.75" y="-10.75" width="6.5" height="28.5"></rect>
+                </g>
+                <g id="Group-6-Copy-3" transform="translate(631.000000, 146.500000)">
+                    <mask id="mask-55" fill="white">
+                        <use xlink:href="#path-54"></use>
+                    </mask>
+                    <use id="Rectangle-Copy-67" fill="url(#linearGradient-7)" fill-rule="nonzero" transform="translate(68.000000, 95.500000) rotate(-270.000000) translate(-68.000000, -95.500000) " xlink:href="#path-54"></use>
+                    <path d="M162.932287,31.5244377 C162.946943,31.6636029 162.954286,31.8034413 162.954286,31.9433762 L162.954286,159.056624 C162.954286,161.265763 161.163425,163.056624 158.954286,163.056624 C158.814351,163.056624 158.674512,163.049281 158.535347,163.034625 L-23.3732242,143.877135 C-25.4089241,143.662748 -26.9542857,141.946092 -26.9542857,139.899134 L-26.9542857,51.1008655 C-26.9542857,49.0539078 -25.4089241,47.337252 -23.3732242,47.1228647 L158.535347,27.9653754 C160.732336,27.734002 162.700913,29.3274485 162.932287,31.5244377 Z M162.435036,31.576805 C162.239333,29.7185183 160.623225,28.3537116 158.779236,28.4476631 L158.587715,28.4626255 L-23.3208569,47.6201148 C-25.0384787,47.8010041 -26.3571534,49.2041631 -26.4491536,50.9101158 L-26.4542857,51.1008655 L-26.4542857,139.899134 C-26.4542857,141.626255 -25.1969547,143.084637 -23.51002,143.354803 L-23.3208569,143.379885 L158.587715,162.537375 C158.709484,162.550199 158.831843,162.556624 158.954286,162.556624 C160.822849,162.556624 162.349412,161.092346 162.449107,159.248659 L162.454286,159.056624 L162.454286,31.9433762 L162.44947,31.759838 L162.435036,31.576805 Z" id="Rectangle-Copy-67" fill="#2C405A" fill-rule="nonzero" mask="url(#mask-55)" transform="translate(68.000000, 95.499838) rotate(-270.000000) translate(-68.000000, -95.499838) "></path>
+                </g>
+                <g id="Mask" fill-rule="nonzero" transform="translate(698.250000, 262.000000) rotate(-270.000000) translate(-698.250000, -262.000000) ">
+                    <use fill="url(#linearGradient-10)" xlink:href="#path-56"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-57)" xlink:href="#path-56"></use>
+                </g>
+                <path d="M693.333843,168.27439 L707.25,165 L707.25,165 L707.25,258 L693.333843,254.72561 C691.52698,254.300466 690.25,252.688147 690.25,250.831941 L690.25,172.168059 C690.25,170.311853 691.52698,168.699534 693.333843,168.27439 Z" id="Rectangle-Copy-79" fill="url(#linearGradient-13)" fill-rule="nonzero" transform="translate(698.750000, 211.500000) rotate(-270.000000) translate(-698.750000, -211.500000) "></path>
+                <g id="Path-Copy-9" fill-rule="nonzero" transform="translate(418.000000, 399.500000) rotate(-90.000000) translate(-418.000000, -399.500000) ">
+                    <use fill="#FFFFFF" xlink:href="#path-58"></use>
+                    <use fill="url(#linearGradient-21)" xlink:href="#path-58"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-59)" xlink:href="#path-58"></use>
+                </g>
+                <g id="Path-Copy-11" fill-rule="nonzero" transform="translate(700.000000, 399.500000) rotate(-90.000000) translate(-700.000000, -399.500000) ">
+                    <use fill="#FFFFFF" xlink:href="#path-60"></use>
+                    <use fill="url(#linearGradient-21)" xlink:href="#path-60"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-61)" xlink:href="#path-60"></use>
+                </g>
+                <g id="Mask-Copy-2" fill-rule="nonzero" transform="translate(698.500000, 261.490459) rotate(-270.000000) translate(-698.500000, -261.490459) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-63)" xlink:href="#path-62"></use>
+                    <path stroke="#7F7F7F" stroke-width="0.5" d="M752.988498,204.685677 C754.431348,204.544429 755.794856,205.001384 756.832963,205.854364 C757.87401,206.70976 758.587811,207.963427 758.72621,209.411464 L758.72621,209.411464 L758.75,313.070581 C758.75,314.520328 758.162374,315.832828 757.212311,316.782891 C756.262247,317.732954 754.949747,318.320581 753.5,318.320581 C753.321815,318.320581 753.143746,318.311509 752.966484,318.293402 L752.966484,318.293402 L642.966484,307.056798 C641.626996,306.919968 640.447875,306.287492 639.603626,305.352609 C638.759377,304.417725 638.25,303.180435 638.25,301.833977 L638.25,301.833977 L638.25,220.679112 C638.25,219.328419 638.762491,218.087961 639.611049,217.152278 C640.459606,216.216595 641.644231,215.585685 642.988498,215.454089 L642.988498,215.454089 Z M753.23207,207.173783 L643.23207,217.942195 C642.527931,218.011127 641.907413,218.341603 641.46293,218.831723 C641.018448,219.321843 640.75,219.971606 640.75,220.679112 L640.75,301.833977 C640.75,302.539264 641.016817,303.187369 641.459042,303.67707 C641.901268,304.16677 642.518903,304.498067 643.220539,304.56974 L753.512448,315.820553 C754.266903,315.81721 754.949612,315.510056 755.444544,315.015124 C755.942196,314.517472 756.25,313.829972 756.25,313.070581 L756.213492,209.463412 C756.097509,208.755123 755.715818,208.147992 755.18217,207.735189 C754.64692,207.321146 753.9587,207.10265 753.23207,207.173783 Z" fill="url(#linearGradient-14)" fill-rule="evenodd"></path>
+                </g>
+                <g id="Group-2-Copy-2" transform="translate(658.000000, 265.000000)">
+                    <g id="Group-69-Copy-2" transform="translate(40.500000, 13.000000) rotate(-90.000000) translate(-40.500000, -13.000000) translate(28.000000, -27.000000)">
+                        <mask id="mask-65" fill="white">
+                            <use xlink:href="#path-64"></use>
+                        </mask>
+                        <g id="Mask" fill-rule="nonzero">
+                            <use fill="url(#linearGradient-17)" xlink:href="#path-64"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-66)" xlink:href="#path-64"></use>
+                        </g>
+                        <g id="Group-69" opacity="0.603050595" mask="url(#mask-65)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="0.5">
+                            <g transform="translate(-256.000000, -341.000000)" opacity="0.148297991">
+                                <line x1="0" y1="429" x2="427.5" y2="0.5" id="Line-8-Copy"></line>
+                                <line x1="0" y1="432" x2="427.5" y2="3.5" id="Line-8-Copy-2"></line>
+                                <line x1="0" y1="435" x2="427.5" y2="6.5" id="Line-8-Copy-3"></line>
+                                <line x1="0" y1="438" x2="427.5" y2="9.5" id="Line-8-Copy-4"></line>
+                                <line x1="0" y1="441" x2="427.5" y2="12.5" id="Line-8-Copy-5"></line>
+                                <line x1="0" y1="444" x2="427.5" y2="15.5" id="Line-8-Copy-6"></line>
+                                <line x1="0" y1="447" x2="427.5" y2="18.5" id="Line-8-Copy-7"></line>
+                                <line x1="0" y1="450" x2="427.5" y2="21.5" id="Line-8-Copy-8"></line>
+                                <line x1="0" y1="453" x2="427.5" y2="24.5" id="Line-8-Copy-9"></line>
+                                <line x1="0" y1="456" x2="427.5" y2="27.5" id="Line-8-Copy-10"></line>
+                                <line x1="0" y1="459" x2="427.5" y2="30.5" id="Line-8-Copy-11"></line>
+                                <line x1="0" y1="462" x2="427.5" y2="33.5" id="Line-8-Copy-12"></line>
+                                <line x1="0" y1="465" x2="427.5" y2="36.5" id="Line-8-Copy-13"></line>
+                                <line x1="0" y1="468" x2="427.5" y2="39.5" id="Line-8-Copy-14"></line>
+                                <line x1="0" y1="471" x2="427.5" y2="42.5" id="Line-8-Copy-15"></line>
+                                <line x1="0" y1="474" x2="427.5" y2="45.5" id="Line-8-Copy-16"></line>
+                                <line x1="0" y1="477" x2="427.5" y2="48.5" id="Line-8-Copy-17"></line>
+                                <line x1="0" y1="480" x2="427.5" y2="51.5" id="Line-8-Copy-18"></line>
+                                <line x1="0" y1="483" x2="427.5" y2="54.5" id="Line-8-Copy-19"></line>
+                                <line x1="0" y1="486" x2="427.5" y2="57.5" id="Line-8-Copy-20"></line>
+                                <line x1="0" y1="489" x2="427.5" y2="60.5" id="Line-8-Copy-21"></line>
+                                <line x1="0" y1="492" x2="427.5" y2="63.5" id="Line-8-Copy-22"></line>
+                                <line x1="0" y1="495" x2="427.5" y2="66.5" id="Line-8-Copy-23"></line>
+                                <line x1="0" y1="498" x2="427.5" y2="69.5" id="Line-8-Copy-24"></line>
+                                <line x1="0" y1="501" x2="427.5" y2="72.5" id="Line-8-Copy-25"></line>
+                                <line x1="0" y1="504" x2="427.5" y2="75.5" id="Line-8-Copy-26"></line>
+                                <line x1="0" y1="507" x2="427.5" y2="78.5" id="Line-8-Copy-27"></line>
+                                <line x1="0" y1="510" x2="427.5" y2="81.5" id="Line-8-Copy-28"></line>
+                                <line x1="0" y1="513" x2="427.5" y2="84.5" id="Line-8-Copy-29"></line>
+                                <line x1="0" y1="516" x2="427.5" y2="87.5" id="Line-8-Copy-30"></line>
+                                <line x1="0" y1="519" x2="427.5" y2="90.5" id="Line-8-Copy-31"></line>
+                                <line x1="0" y1="522" x2="427.5" y2="93.5" id="Line-8-Copy-32"></line>
+                                <line x1="0" y1="525" x2="427.5" y2="96.5" id="Line-8-Copy-33"></line>
+                                <line x1="0" y1="528" x2="427.5" y2="99.5" id="Line-8-Copy-34"></line>
+                                <line x1="0" y1="531" x2="427.5" y2="102.5" id="Line-8-Copy-35"></line>
+                                <line x1="0" y1="534" x2="427.5" y2="105.5" id="Line-8-Copy-36"></line>
+                                <line x1="0" y1="537" x2="427.5" y2="108.5" id="Line-8-Copy-37"></line>
+                                <line x1="0" y1="540" x2="427.5" y2="111.5" id="Line-8-Copy-38"></line>
+                                <line x1="0" y1="543" x2="427.5" y2="114.5" id="Line-8-Copy-39"></line>
+                                <line x1="0" y1="546" x2="427.5" y2="117.5" id="Line-8-Copy-40"></line>
+                                <line x1="0" y1="549" x2="427.5" y2="120.5" id="Line-8-Copy-41"></line>
+                                <line x1="0" y1="552" x2="427.5" y2="123.5" id="Line-8-Copy-42"></line>
+                                <line x1="0" y1="555" x2="427.5" y2="126.5" id="Line-8-Copy-43"></line>
+                                <line x1="0" y1="558" x2="427.5" y2="129.5" id="Line-8-Copy-44"></line>
+                                <line x1="0" y1="561" x2="427.5" y2="132.5" id="Line-8-Copy-45"></line>
+                                <line x1="0" y1="564" x2="427.5" y2="135.5" id="Line-8-Copy-46"></line>
+                                <line x1="0" y1="567" x2="427.5" y2="138.5" id="Line-8-Copy-47"></line>
+                                <line x1="0" y1="570" x2="427.5" y2="141.5" id="Line-8-Copy-48"></line>
+                                <line x1="0" y1="573" x2="427.5" y2="144.5" id="Line-8-Copy-49"></line>
+                                <line x1="0" y1="576" x2="427.5" y2="147.5" id="Line-8-Copy-50"></line>
+                                <line x1="0" y1="579" x2="427.5" y2="150.5" id="Line-8-Copy-51"></line>
+                                <line x1="0" y1="582" x2="427.5" y2="153.5" id="Line-8-Copy-52"></line>
+                                <line x1="0" y1="585" x2="427.5" y2="156.5" id="Line-8-Copy-53"></line>
+                                <line x1="0" y1="588" x2="427.5" y2="159.5" id="Line-8-Copy-54"></line>
+                                <line x1="0" y1="591" x2="427.5" y2="162.5" id="Line-8-Copy-55"></line>
+                                <line x1="0" y1="594" x2="427.5" y2="165.5" id="Line-8-Copy-56"></line>
+                                <line x1="0" y1="597" x2="427.5" y2="168.5" id="Line-8-Copy-57"></line>
+                                <line x1="0" y1="600" x2="427.5" y2="171.5" id="Line-8-Copy-58"></line>
+                                <line x1="0" y1="603" x2="427.5" y2="174.5" id="Line-8-Copy-59"></line>
+                                <line x1="0" y1="606" x2="427.5" y2="177.5" id="Line-8-Copy-60"></line>
+                                <line x1="0" y1="609" x2="427.5" y2="180.5" id="Line-8-Copy-61"></line>
+                                <line x1="0" y1="612" x2="427.5" y2="183.5" id="Line-8-Copy-62"></line>
+                                <line x1="0" y1="615" x2="427.5" y2="186.5" id="Line-8-Copy-63"></line>
+                                <line x1="0" y1="618" x2="427.5" y2="189.5" id="Line-8-Copy-64"></line>
+                                <line x1="0" y1="621" x2="427.5" y2="192.5" id="Line-8-Copy-65"></line>
+                                <line x1="0" y1="624" x2="427.5" y2="195.5" id="Line-8-Copy-66"></line>
+                                <line x1="0" y1="627" x2="427.5" y2="198.5" id="Line-8-Copy-67"></line>
+                                <line x1="0" y1="630" x2="427.5" y2="201.5" id="Line-8-Copy-68"></line>
+                                <line x1="0" y1="633" x2="427.5" y2="204.5" id="Line-8-Copy-69"></line>
+                                <line x1="0" y1="636" x2="427.5" y2="207.5" id="Line-8-Copy-70"></line>
+                                <line x1="0" y1="639" x2="427.5" y2="210.5" id="Line-8-Copy-71"></line>
+                                <line x1="0" y1="642" x2="427.5" y2="213.5" id="Line-8-Copy-72"></line>
+                                <line x1="0" y1="645" x2="427.5" y2="216.5" id="Line-8-Copy-73"></line>
+                                <line x1="0" y1="648" x2="427.5" y2="219.5" id="Line-8-Copy-74"></line>
+                                <line x1="0" y1="651" x2="427.5" y2="222.5" id="Line-8-Copy-75"></line>
+                                <line x1="0" y1="654" x2="427.5" y2="225.5" id="Line-8-Copy-76"></line>
+                                <line x1="0" y1="657" x2="427.5" y2="228.5" id="Line-8-Copy-77"></line>
+                                <line x1="0" y1="660" x2="427.5" y2="231.5" id="Line-8-Copy-78"></line>
+                                <line x1="0" y1="663" x2="427.5" y2="234.5" id="Line-8-Copy-79"></line>
+                                <line x1="0" y1="666" x2="427.5" y2="237.5" id="Line-8-Copy-80"></line>
+                                <line x1="0" y1="669" x2="427.5" y2="240.5" id="Line-8-Copy-81"></line>
+                                <line x1="0" y1="672" x2="427.5" y2="243.5" id="Line-8-Copy-82"></line>
+                                <line x1="0" y1="675" x2="427.5" y2="246.5" id="Line-8-Copy-83"></line>
+                                <line x1="0" y1="678" x2="427.5" y2="249.5" id="Line-8-Copy-84"></line>
+                                <line x1="0" y1="681" x2="427.5" y2="252.5" id="Line-8-Copy-85"></line>
+                                <line x1="0" y1="684" x2="427.5" y2="255.5" id="Line-8-Copy-86"></line>
+                                <line x1="0" y1="687" x2="427.5" y2="258.5" id="Line-8-Copy-87"></line>
+                                <line x1="0" y1="690" x2="427.5" y2="261.5" id="Line-8-Copy-88"></line>
+                                <line x1="0" y1="693" x2="427.5" y2="264.5" id="Line-8-Copy-89"></line>
+                                <line x1="0" y1="696" x2="427.5" y2="267.5" id="Line-8-Copy-90"></line>
+                                <line x1="0" y1="699" x2="427.5" y2="270.5" id="Line-8-Copy-91"></line>
+                                <line x1="0" y1="702" x2="427.5" y2="273.5" id="Line-8-Copy-92"></line>
+                                <line x1="0" y1="705" x2="427.5" y2="276.5" id="Line-8-Copy-93"></line>
+                                <line x1="0" y1="708" x2="427.5" y2="279.5" id="Line-8-Copy-94"></line>
+                                <line x1="0" y1="711" x2="427.5" y2="282.5" id="Line-8-Copy-95"></line>
+                                <line x1="0" y1="714" x2="427.5" y2="285.5" id="Line-8-Copy-96"></line>
+                                <line x1="0" y1="717" x2="427.5" y2="288.5" id="Line-8-Copy-97"></line>
+                                <line x1="0" y1="720" x2="427.5" y2="291.5" id="Line-8-Copy-98"></line>
+                                <line x1="0" y1="723" x2="427.5" y2="294.5" id="Line-8-Copy-99"></line>
+                                <line x1="0" y1="726" x2="427.5" y2="297.5" id="Line-8-Copy-100"></line>
+                                <line x1="0" y1="729" x2="427.5" y2="300.5" id="Line-8-Copy-101"></line>
+                                <line x1="0" y1="732" x2="427.5" y2="303.5" id="Line-8-Copy-102"></line>
+                                <line x1="0" y1="735" x2="427.5" y2="306.5" id="Line-8-Copy-103"></line>
+                                <line x1="0" y1="738" x2="427.5" y2="309.5" id="Line-8-Copy-104"></line>
+                                <line x1="0" y1="741" x2="427.5" y2="312.5" id="Line-8-Copy-105"></line>
+                                <line x1="0" y1="744" x2="427.5" y2="315.5" id="Line-8-Copy-106"></line>
+                                <line x1="0" y1="747" x2="427.5" y2="318.5" id="Line-8-Copy-107"></line>
+                                <line x1="0" y1="750" x2="427.5" y2="321.5" id="Line-8-Copy-108"></line>
+                                <line x1="0" y1="753" x2="427.5" y2="324.5" id="Line-8-Copy-109"></line>
+                                <line x1="0" y1="756" x2="427.5" y2="327.5" id="Line-8-Copy-110"></line>
+                                <line x1="0" y1="759" x2="427.5" y2="330.5" id="Line-8-Copy-111"></line>
+                                <line x1="0" y1="762" x2="427.5" y2="333.5" id="Line-8-Copy-112"></line>
+                                <line x1="0" y1="765" x2="427.5" y2="336.5" id="Line-8-Copy-113"></line>
+                                <line x1="0" y1="768" x2="427.5" y2="339.5" id="Line-8-Copy-114"></line>
+                                <line x1="0" y1="771" x2="427.5" y2="342.5" id="Line-8-Copy-115"></line>
+                                <line x1="0" y1="774" x2="427.5" y2="345.5" id="Line-8-Copy-116"></line>
+                                <line x1="0" y1="777" x2="427.5" y2="348.5" id="Line-8-Copy-117"></line>
+                                <line x1="0" y1="780" x2="427.5" y2="351.5" id="Line-8-Copy-118"></line>
+                                <line x1="0" y1="783" x2="427.5" y2="354.5" id="Line-8-Copy-119"></line>
+                                <line x1="0" y1="786" x2="427.5" y2="357.5" id="Line-8-Copy-120"></line>
+                                <line x1="0" y1="789" x2="427.5" y2="360.5" id="Line-8-Copy-121"></line>
+                                <line x1="0" y1="792" x2="427.5" y2="363.5" id="Line-8-Copy-122"></line>
+                                <line x1="0" y1="795" x2="427.5" y2="366.5" id="Line-8-Copy-123"></line>
+                                <line x1="0" y1="798" x2="427.5" y2="369.5" id="Line-8-Copy-124"></line>
+                                <line x1="0" y1="801" x2="427.5" y2="372.5" id="Line-8-Copy-125"></line>
+                                <line x1="0" y1="804" x2="427.5" y2="375.5" id="Line-8-Copy-126"></line>
+                                <line x1="0" y1="807" x2="427.5" y2="378.5" id="Line-8-Copy-127"></line>
+                                <line x1="0" y1="810" x2="427.5" y2="381.5" id="Line-8-Copy-128"></line>
+                                <line x1="0" y1="813" x2="427.5" y2="384.5" id="Line-8-Copy-129"></line>
+                                <line x1="0" y1="816" x2="427.5" y2="387.5" id="Line-8-Copy-130"></line>
+                                <line x1="0" y1="819" x2="427.5" y2="390.5" id="Line-8-Copy-131"></line>
+                                <line x1="0" y1="822" x2="427.5" y2="393.5" id="Line-8-Copy-132"></line>
+                                <line x1="0" y1="825" x2="427.5" y2="396.5" id="Line-8-Copy-133"></line>
+                                <line x1="0" y1="828" x2="427.5" y2="399.5" id="Line-8-Copy-134"></line>
+                                <line x1="0" y1="831" x2="427.5" y2="402.5" id="Line-8-Copy-135"></line>
+                                <line x1="0" y1="834" x2="427.5" y2="405.5" id="Line-8-Copy-136"></line>
+                                <line x1="0" y1="837" x2="427.5" y2="408.5" id="Line-8-Copy-137"></line>
+                                <line x1="0" y1="840" x2="427.5" y2="411.5" id="Line-8-Copy-138"></line>
+                                <line x1="0" y1="843" x2="427.5" y2="414.5" id="Line-8-Copy-139"></line>
+                                <line x1="0" y1="846" x2="427.5" y2="417.5" id="Line-8-Copy-140"></line>
+                                <line x1="0" y1="849" x2="427.5" y2="420.5" id="Line-8-Copy-141"></line>
+                                <line x1="0" y1="852" x2="427.5" y2="423.5" id="Line-8-Copy-142"></line>
+                                <line x1="0" y1="855" x2="427.5" y2="426.5" id="Line-8-Copy-143"></line>
+                                <line x1="0" y1="858" x2="427.5" y2="429.5" id="Line-8-Copy-144"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-11" transform="translate(685.000000, 454.500000)" fill-rule="nonzero" stroke="#636262" stroke-width="0.5">
+                    <path d="M22.25,7.25 L6.75,7.25 L6.75,22.75 L11.5,22.75 C14.4685305,22.75 17.1560305,21.5467653 19.1013979,19.6013979 C21.0467653,17.6560305 22.25,14.9685305 22.25,12 L22.25,7.25 Z" id="Rectangle-Copy-116" fill="url(#radialGradient-67)" transform="translate(14.500000, 15.000000) scale(-1, -1) rotate(-180.000000) translate(-14.500000, -15.000000) "></path>
+                    <rect id="Rectangle-Copy-29" fill="url(#linearGradient-27)" transform="translate(14.500000, 4.000000) rotate(-270.000000) translate(-14.500000, -4.000000) " x="11.25" y="-3.75" width="6.5" height="15.5"></rect>
+                    <rect id="Rectangle-Copy-30" fill="url(#linearGradient-27)" transform="translate(3.500000, 15.000000) rotate(-360.000000) translate(-3.500000, -15.000000) " x="0.25" y="7.25" width="6.5" height="15.5"></rect>
+                </g>
+                <polygon id="Rectangle-Copy-21" fill="url(#linearGradient-5)" fill-rule="nonzero" transform="translate(699.000000, 81.500000) rotate(-270.000000) translate(-699.000000, -81.500000) " points="640 73.5 758 73.5 758 89.5 640 89.5"></polygon>
+                <polygon id="Rectangle-Copy-22" fill="url(#linearGradient-5)" fill-rule="nonzero" transform="translate(558.000000, 81.500000) rotate(-270.000000) translate(-558.000000, -81.500000) " points="499 73.5 617 73.5 617 89.5 499 89.5"></polygon>
+                <polygon id="Rectangle-Copy-24" fill="url(#linearGradient-5)" fill-rule="nonzero" transform="translate(418.000000, 81.500000) rotate(-270.000000) translate(-418.000000, -81.500000) " points="359 73.5 477 73.5 477 89.5 359 89.5"></polygon>
+                <g id="Path-Copy-11" fill-rule="nonzero" transform="translate(699.500000, 78.500000) rotate(-90.000000) translate(-699.500000, -78.500000) ">
+                    <use fill="#FFFFFF" xlink:href="#path-68"></use>
+                    <use fill="url(#linearGradient-21)" xlink:href="#path-68"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-69)" xlink:href="#path-68"></use>
+                </g>
+                <g id="Path-Copy-12" fill-rule="nonzero" transform="translate(558.500000, 78.500000) rotate(-90.000000) translate(-558.500000, -78.500000) ">
+                    <use fill="#FFFFFF" xlink:href="#path-70"></use>
+                    <use fill="url(#linearGradient-21)" xlink:href="#path-70"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-71)" xlink:href="#path-70"></use>
+                </g>
+                <g id="Path-Copy-13" fill-rule="nonzero" transform="translate(418.500000, 78.500000) rotate(-90.000000) translate(-418.500000, -78.500000) ">
+                    <use fill="#FFFFFF" xlink:href="#path-72"></use>
+                    <use fill="url(#linearGradient-21)" xlink:href="#path-72"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-73)" xlink:href="#path-72"></use>
+                </g>
+                <g id="Group-14-Copy" filter="url(#filter-74)" transform="translate(684.000000, 140.500000)" fill="url(#linearGradient-3)" fill-rule="nonzero" stroke="#636262" stroke-width="0.5">
+                    <rect id="Rectangle-Copy-18" transform="translate(14.500000, 3.500000) rotate(-270.000000) translate(-14.500000, -3.500000) " x="11.25" y="-10.75" width="6.5" height="28.5"></rect>
+                </g>
+                <path d="M184,0.5 L184,16.5 L16.9370079,16.5 C15.6456693,14.6155141 15,13.2821808 15,12.5 C15,9.5 19.3582677,10.5 19.3582677,6 C19.3582677,4.1665765 18.5511811,2.33324317 16.9370079,0.5 L184,0.5 Z" id="Combined-Shape-Copy" fill="url(#linearGradient-75)" fill-rule="nonzero"></path>
+                <path d="M183,461.5 L183,477.5 L36.9370079,477.5 C35.6456693,475.615514 35,474.282181 35,473.5 C35,470.5 39.3582677,471.5 39.3582677,467 C39.3582677,465.166577 38.5511811,463.333243 36.9370079,461.5 L183,461.5 Z" id="Combined-Shape-Copy-2" fill="url(#linearGradient-76)" fill-rule="nonzero"></path>
+                <g id="Group-11-Copy" transform="translate(696.000000, 12.000000) scale(1, -1) translate(-696.000000, -12.000000) translate(684.500000, 0.500000)" fill-rule="nonzero" stroke="#636262" stroke-width="0.5">
+                    <path d="M22.25,7.25 L6.75,7.25 L6.75,22.75 L11.5,22.75 C14.4685305,22.75 17.1560305,21.5467653 19.1013979,19.6013979 C21.0467653,17.6560305 22.25,14.9685305 22.25,12 L22.25,7.25 Z" id="Rectangle-Copy-116" fill="url(#radialGradient-67)" transform="translate(14.500000, 15.000000) scale(-1, -1) rotate(-180.000000) translate(-14.500000, -15.000000) "></path>
+                    <rect id="Rectangle-Copy-29" fill="url(#linearGradient-27)" transform="translate(14.500000, 4.000000) rotate(-270.000000) translate(-14.500000, -4.000000) " x="11.25" y="-3.75" width="6.5" height="15.5"></rect>
+                    <rect id="Rectangle-Copy-30" fill="url(#linearGradient-27)" transform="translate(3.500000, 15.000000) rotate(-360.000000) translate(-3.500000, -15.000000) " x="0.25" y="7.25" width="6.5" height="15.5"></rect>
+                </g>
+                <rect id="Rectangle-Copy-28" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" fill-rule="nonzero" transform="translate(418.000000, 19.500000) rotate(-270.000000) translate(-418.000000, -19.500000) " x="414.75" y="11.75" width="6.5" height="15.5"></rect>
+                <rect id="Rectangle-Copy-26" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" fill-rule="nonzero" transform="translate(558.000000, 19.500000) rotate(-270.000000) translate(-558.000000, -19.500000) " x="554.75" y="11.75" width="6.5" height="15.5"></rect>
+                <rect id="Rectangle-Copy-34" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" fill-rule="nonzero" x="183.25" y="0.75" width="6.5" height="15.5"></rect>
+                <rect id="Rectangle-Copy-38" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" fill-rule="nonzero" x="222.25" y="0.75" width="6.5" height="15.5"></rect>
+                <rect id="Rectangle-Copy-37" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" fill-rule="nonzero" x="222.25" y="461.75" width="6.5" height="15.5"></rect>
+                <rect id="Rectangle-Copy-36" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-27)" fill-rule="nonzero" x="183.25" y="461.75" width="6.5" height="15.5"></rect>
+                <g id="Group-11-Copy-6" transform="translate(70.000000, 455.500000)">
+                    <g id="Group-11-Copy-2" transform="translate(1.000000, 1.000000)">
+                        <g id="Group-4-Copy" transform="translate(0.525000, 0.525000)">
+                            <g id="Group-3">
+                                <mask id="mask-78" fill="white">
+                                    <use xlink:href="#path-77"></use>
+                                </mask>
+                                <use id="Mask" fill="#FFFFFF" xlink:href="#path-77"></use>
+                                <g mask="url(#mask-78)" fill="#827F83" id="Combined-Shape">
+                                    <g transform="translate(-51.900000, -31.650000)">
+                                        <path d="M87.6105302,-1.70530257e-13 L88.3529923,0.74246212 L0.74246212,88.3529923 L2.27373675e-13,87.6105302 L87.6105302,-1.70530257e-13 Z M93.7475282,-1.70530257e-13 L94.4899904,0.74246212 L6.87946017,88.3529923 L6.13699805,87.6105302 L93.7475282,-1.70530257e-13 Z M100.047528,-1.70530257e-13 L100.78999,0.74246212 L13.1794602,88.3529923 L12.436998,87.6105302 L100.047528,-1.70530257e-13 Z M106.347528,-1.70530257e-13 L107.08999,0.74246212 L19.4794602,88.3529923 L18.736998,87.6105302 L106.347528,-1.70530257e-13 Z M112.647528,-1.70530257e-13 L113.38999,0.74246212 L25.7794602,88.3529923 L25.036998,87.6105302 L112.647528,-1.70530257e-13 Z M118.947528,-1.70530257e-13 L119.68999,0.74246212 L32.0794602,88.3529923 L31.336998,87.6105302 L118.947528,-1.70530257e-13 Z M125.247528,-1.70530257e-13 L125.98999,0.74246212 L38.3794602,88.3529923 L37.636998,87.6105302 L125.247528,-1.70530257e-13 Z M131.547528,-1.70530257e-13 L132.28999,0.74246212 L44.6794602,88.3529923 L43.936998,87.6105302 L131.547528,-1.70530257e-13 Z M137.847528,-1.70530257e-13 L138.58999,0.74246212 L50.9794602,88.3529923 L50.236998,87.6105302 L137.847528,-1.70530257e-13 Z"></path>
+                                        <path d="M87.6105302,7.88702437e-13 L88.3529923,0.74246212 L0.74246212,88.3529923 L1.98951966e-13,87.6105302 L87.6105302,7.88702437e-13 Z M93.7475282,7.88702437e-13 L94.4899904,0.74246212 L6.87946017,88.3529923 L6.13699805,87.6105302 L93.7475282,7.88702437e-13 Z M100.047528,7.88702437e-13 L100.78999,0.74246212 L13.1794602,88.3529923 L12.436998,87.6105302 L100.047528,7.88702437e-13 Z M106.347528,7.88702437e-13 L107.08999,0.74246212 L19.4794602,88.3529923 L18.736998,87.6105302 L106.347528,7.88702437e-13 Z M112.647528,7.88702437e-13 L113.38999,0.74246212 L25.7794602,88.3529923 L25.036998,87.6105302 L112.647528,7.88702437e-13 Z M118.947528,7.88702437e-13 L119.68999,0.74246212 L32.0794602,88.3529923 L31.336998,87.6105302 L118.947528,7.88702437e-13 Z M125.247528,7.88702437e-13 L125.98999,0.74246212 L38.3794602,88.3529923 L37.636998,87.6105302 L125.247528,7.88702437e-13 Z M131.547528,7.88702437e-13 L132.28999,0.74246212 L44.6794602,88.3529923 L43.936998,87.6105302 L131.547528,7.88702437e-13 Z M137.847528,7.88702437e-13 L138.58999,0.74246212 L50.9794602,88.3529923 L50.236998,87.6105302 L137.847528,7.88702437e-13 Z" transform="translate(69.294995, 44.176496) scale(-1, 1) translate(-69.294995, -44.176496) "></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M14,0.25 C6.40608469,0.25 0.25,6.40608469 0.25,14 C0.25,21.5939153 6.40608469,27.75 14,27.75 C21.5939153,27.75 27.75,21.5939153 27.75,14 C27.75,6.40608469 21.5939153,0.25 14,0.25 Z M14,1.75 C20.7654882,1.75 26.25,7.23451181 26.25,14 C26.25,20.7654882 20.7654882,26.25 14,26.25 C7.23451181,26.25 1.75,20.7654882 1.75,14 C1.75,7.23451181 7.23451181,1.75 14,1.75 Z" id="Oval" fill="url(#linearGradient-79)" fill-rule="nonzero"></path>
+                    <path d="M14,0.25 C21.5939153,0.25 27.75,6.40608469 27.75,14 C27.75,21.4898891 21.76142,27.5810703 14.3112571,27.7465465 L14,27.75 C6.40608469,27.75 0.25,21.5939153 0.25,14 C0.25,6.51011093 6.23858004,0.418929667 13.6887429,0.253453485 L14,0.25 Z M14,0.75 C6.68222707,0.75 0.75,6.68222707 0.75,14 C0.75,21.3177729 6.68222707,27.25 14,27.25 C21.3177729,27.25 27.25,21.3177729 27.25,14 C27.25,6.68222707 21.3177729,0.75 14,0.75 Z" id="Oval" fill="#636262" fill-rule="nonzero"></path>
+                </g>
+                <rect id="Rectangle-Copy-25" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(149.500000, 220.000000) rotate(-270.000000) translate(-149.500000, -220.000000) " x="146.25" y="211.75" width="6.5" height="16.5"></rect>
+                <rect id="Rectangle-Copy-31" stroke="#636262" stroke-width="0.5" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(149.500000, 253.000000) rotate(-270.000000) translate(-149.500000, -253.000000) " x="146.25" y="244.75" width="6.5" height="16.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

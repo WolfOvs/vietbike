@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="567px" height="487px" viewBox="0 0 567 487" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Schema-Gas-Combustibile-Messina-TC5-6</title>
+    <defs>
+        <linearGradient x1="50.0338387%" y1="3.06287114e-15%" x2="50.0338387%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#363D43" offset="0%"></stop>
+            <stop stop-color="#61676C" offset="49.5565878%"></stop>
+            <stop stop-color="#363D43" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="194" cy="194" r="190"></circle>
+        <filter x="-1.3%" y="-1.3%" width="102.6%" height="102.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="4.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.301737325 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0.452788603%" y1="50.4025862%" x2="99.6148889%" y2="50.4025862%" id="linearGradient-4">
+            <stop stop-color="#AFACB1" offset="0%"></stop>
+            <stop stop-color="#BAB9BC" offset="28.4987728%"></stop>
+            <stop stop-color="#D9D8DA" offset="42.07%"></stop>
+            <stop stop-color="#F3F4F4" offset="58.4371217%"></stop>
+            <stop stop-color="#958F95" offset="100%"></stop>
+        </linearGradient>
+        <path d="M194,0 C86.8567585,0 0,86.8567585 0,194 C0,301.143241 86.8567585,388 194,388 C301.143241,388 388,301.143241 388,194 C388,86.8567585 301.143241,0 194,0 Z M194,4 C298.934102,4 384,89.0658975 384,194 C384,298.934102 298.934102,384 194,384 C89.0658975,384 4,298.934102 4,194 C4,89.0658975 89.0658975,4 194,4 Z" id="path-5"></path>
+        <filter x="-2.8%" y="-2.3%" width="105.2%" height="105.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.230550699 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="194.5" cy="192.5" r="65.5"></circle>
+        <filter x="-3.8%" y="-3.8%" width="107.6%" height="107.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="4.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.301737325 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M194.5,126 C157.773064,126 128,155.773064 128,192.5 C128,229.226936 157.773064,259 194.5,259 C231.226936,259 261,229.226936 261,192.5 C261,155.773064 231.226936,126 194.5,126 Z M194.5,128 C230.122366,128 259,156.877634 259,192.5 C259,228.122366 230.122366,257 194.5,257 C158.877634,257 130,228.122366 130,192.5 C130,156.877634 158.877634,128 194.5,128 Z" id="path-9"></path>
+        <filter x="-8.3%" y="-6.8%" width="115.0%" height="115.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.230550699 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets-Messina" transform="translate(-260.000000, -10771.000000)">
+            <g id="Schema-Gas-Combustibile-Messina-TC5-6" transform="translate(260.000000, 10777.000000)">
+                <g id="Group-5" transform="translate(172.044392, 0.000000)">
+                    <g id="Oval" fill-rule="nonzero">
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Oval" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <path stroke="#7F7F7F" stroke-width="0.5" d="M194,-0.25 C247.640656,-0.25 296.203156,21.4921718 331.355492,56.6445078 C366.507828,91.7968437 388.25,140.359344 388.25,194 C388.25,247.640656 366.507828,296.203156 331.355492,331.355492 C296.203156,366.507828 247.640656,388.25 194,388.25 C140.359344,388.25 91.7968437,366.507828 56.6445078,331.355492 C21.4921718,296.203156 -0.25,247.640656 -0.25,194 C-0.25,140.359344 21.4921718,91.7968437 56.6445078,56.6445078 C91.7968437,21.4921718 140.359344,-0.25 194,-0.25 Z M194,4.25 C141.601984,4.25 94.1644844,25.4884922 59.8264883,59.8264883 C25.4884922,94.1644844 4.25,141.601984 4.25,194 C4.25,246.398016 25.4884922,293.835516 59.8264883,328.173512 C94.1644844,362.511508 141.601984,383.75 194,383.75 C246.398016,383.75 293.835516,362.511508 328.173512,328.173512 C362.511508,293.835516 383.75,246.398016 383.75,194 C383.75,141.601984 362.511508,94.1644844 328.173512,59.8264883 C293.835516,25.4884922 246.398016,4.25 194,4.25 Z" fill="url(#linearGradient-4)" fill-rule="evenodd"></path>
+                    </g>
+                    <circle id="Oval" stroke="#F0F0F0" stroke-width="1.5" cx="194.5" cy="194.5" r="108.5"></circle>
+                    <circle id="Oval" stroke="#9EA1A4" cx="194.5" cy="194.5" r="123.5"></circle>
+                    <path d="M229.236717,116.351057 C218.622614,111.626077 206.867984,109 194.5,109 C182.369171,109 170.828399,111.526333 160.375109,116.081574 M131.165057,137.062706 C117.392249,152.240563 109,172.390224 109,194.5 C109,197.487314 109.153205,200.438846 109.452185,203.347166 M120.440557,237.253767 C132.331068,257.8065 152.531498,272.950262 176.447438,278.090648 M212.567834,278.087364 C236.668366,272.902669 256.994317,257.559231 268.843142,236.759597 M279.629436,202.513204 C279.874646,199.875079 280,197.202179 280,194.5 C280,172.561996 271.737644,152.553769 258.154973,137.417359" id="Shape" stroke="#9EA1A4"></path>
+                    <circle id="Oval" stroke="#F0F0F0" stroke-width="1.5" cx="194.5" cy="194.5" r="143.5"></circle>
+                    <path d="M227.675529,36.4108463 C216.968065,34.1752269 205.871277,33 194.5,33 C146.872385,33 104.060078,53.6167844 74.5007174,86.4127145 M54.4651744,113.993632 C40.8109359,137.692991 33,165.184324 33,194.5 C33,223.812722 40.8093622,251.30147 54.461048,274.999205 M74.2237036,302.279151 C103.792274,335.254027 146.723396,356 194.5,356 C197.820954,356 199.118497,355.899763 202.389767,355.702149 C203.829524,355.615175 205.330256,355.509338 206.867706,355.384882 C213.789503,354.824568 221.455531,353.886868 227.652138,352.594036 M259.85523,342.229502 C311.563292,319.320169 348.99607,270.059453 355.117687,211.483234 M355.156119,177.88866 C349.148993,119.096268 311.60524,69.6394117 259.715388,46.7086208" id="Shape" stroke="#9EA1A4"></path>
+                    <path d="M194.5,377 C295.291967,377 377,295.291967 377,194.5 C377,93.7080332 295.291967,12 194.5,12 C140.486211,12 91.9529864,35.4650893 58.5381222,72.757473 C50.1720088,82.0944049 42.7535996,92.2981096 36.4341565,103.217325 C20.8944425,130.068028 12,161.24531 12,194.5 C12,295.291967 93.7080332,377 194.5,377 Z" id="Oval" stroke="#F0F0F0" stroke-width="1.5"></path>
+                    <g id="Oval" fill-rule="nonzero">
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-7"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="Oval" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <path stroke="#7F7F7F" stroke-width="0.5" d="M194.5,125.75 C212.932504,125.75 229.620004,133.221248 241.699378,145.300622 C253.778752,157.379996 261.25,174.067496 261.25,192.5 C261.25,210.932504 253.778752,227.620004 241.699378,239.699378 C229.620004,251.778752 212.932504,259.25 194.5,259.25 C176.067496,259.25 159.379996,251.778752 147.300622,239.699378 C135.221248,227.620004 127.75,210.932504 127.75,192.5 C127.75,174.067496 135.221248,157.379996 147.300622,145.300622 C159.379996,133.221248 176.067496,125.75 194.5,125.75 Z M194.5,128.25 C176.757852,128.25 160.695352,135.441426 149.068389,147.068389 C137.441426,158.695352 130.25,174.757852 130.25,192.5 C130.25,210.242148 137.441426,226.304648 149.068389,237.931611 C160.695352,249.558574 176.757852,256.75 194.5,256.75 C212.242148,256.75 228.304648,249.558574 239.931611,237.931611 C251.558574,226.304648 258.75,210.242148 258.75,192.5 C258.75,174.757852 251.558574,158.695352 239.931611,147.068389 C228.304648,135.441426 212.242148,128.25 194.5,128.25 Z" fill="url(#linearGradient-4)" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola" transform="translate(140.616275, 31.595779) rotate(-18.000000) translate(-140.616275, -31.595779) translate(139.616275, 21.095779)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(0.000000, 0.000000)">
+                            <line x1="1.5" y1="15" x2="1.46655823" y2="20.0140461" id="Path-10-Copy"></line>
+                            <line x1="1.5" y1="0.5" x2="1.5" y2="3.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy" transform="translate(333.953639, 94.131597) rotate(51.000000) translate(-333.953639, -94.131597) translate(332.953639, 84.131597)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(0.000000, -0.000000)">
+                            <line x1="0.5" y1="15" x2="0.555218361" y2="19.8742438" id="Path-10-Copy"></line>
+                            <line x1="0.5" y1="0.5" x2="0.5" y2="3.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-5" transform="translate(193.345811, 97.898886) rotate(-1.000000) translate(-193.345811, -97.898886) translate(192.345811, 86.398886)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(0.000000, 0.000000)">
+                            <line x1="1.5" y1="15" x2="1.44764278" y2="22.4995431" id="Path-10-Copy"></line>
+                            <line x1="1.5" y1="0.5" x2="1.5" y2="3.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-7" transform="translate(286.648437, 164.968571) rotate(72.000000) translate(-286.648437, -164.968571) translate(285.648437, 153.468571)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(-0.000000, 0.000000)">
+                            <line x1="0.5" y1="15" x2="0.592511712" y2="22.5640287" id="Path-10-Copy"></line>
+                            <line x1="0.5" y1="0.5" x2="0.5" y2="3.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-9" transform="translate(135.798658, 271.557873) scale(-1, 1) rotate(135.000000) translate(-135.798658, -271.557873) translate(134.298658, 259.557873)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(-0.000000, -0.000000)">
+                            <line x1="1.5" y1="16" x2="1.24789455" y2="23.1434481" id="Path-10-Copy"></line>
+                            <line x1="1.60144794" y1="0.869584452" x2="1.5" y2="4.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-8" transform="translate(251.595849, 272.848985) rotate(142.000000) translate(-251.595849, -272.848985) translate(250.595849, 261.848985)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(-0.000000, -0.000000)">
+                            <line x1="1.5" y1="15" x2="1.45145721" y2="21.9477311" id="Path-10-Copy"></line>
+                            <line x1="1.27955712" y1="0.240118335" x2="1.5" y2="3.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-6" transform="translate(102.536166, 163.315485) scale(-1, 1) rotate(67.000000) translate(-102.536166, -163.315485) translate(101.536166, 152.315485)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(0.000000, 0.000000)">
+                            <line x1="1.5" y1="15" x2="1.41893895" y2="22.0021439" id="Path-10-Copy"></line>
+                            <line x1="1.5" y1="0.5" x2="1.5" y2="3.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-2" transform="translate(332.210512, 296.527903) rotate(128.000000) translate(-332.210512, -296.527903) translate(331.210512, 286.027903)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(-0.000000, 0.000000)">
+                            <line x1="0.5" y1="16" x2="0.5" y2="20.5" id="Path-10-Copy"></line>
+                            <line x1="0.602557847" y1="0.291003977" x2="0.5" y2="4.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-2" transform="translate(265.421380, 307.011687) rotate(150.000000) translate(-265.421380, -307.011687) translate(264.921380, 297.011687)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(0.000000, -0.000000)">
+                            <line x1="0.5" y1="15" x2="0.5" y2="19.5" id="Path-10-Copy"></line>
+                            <line x1="0.5" y1="0.5" x2="0.5" y2="3.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-3" transform="translate(140.062965, 357.317579) rotate(199.000000) translate(-140.062965, -357.317579) translate(139.062965, 346.817579)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(0.000000, -0.000000)">
+                            <line x1="0.5" y1="16" x2="0.5" y2="20.5" id="Path-10-Copy"></line>
+                            <line x1="0.743802314" y1="0.347887466" x2="0.5" y2="4.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <g id="Valvola-Gas-Combustibile-Piccola-Copy-4" transform="translate(22.802548, 195.584323) rotate(269.000000) translate(-22.802548, -195.584323) translate(21.802548, 185.084323)" stroke="#9EA1A4">
+                        <g id="Group" transform="translate(0.000000, 0.000000)">
+                            <line x1="0.5" y1="16" x2="0.5" y2="20.5" id="Path-10-Copy"></line>
+                            <line x1="0.517452406" y1="0.500152305" x2="0.5" y2="4.5" id="Path-10"></line>
+                        </g>
+                    </g>
+                    <path d="M193.955401,51.9980528 L193.955401,61.0454448 M193.955401,317.998053 L194.509674,338.021475" id="Shape" stroke="#9EA1A4" transform="translate(194.455401, 195.009764) rotate(5.000000) translate(-194.455401, -195.009764) "></path>
+                    <path d="M194,52 L194,60.9171086 L194,71 M194,327.740079 L194,337" id="Shape" stroke="#9EA1A4" transform="translate(194.500000, 194.500000) rotate(16.000000) translate(-194.500000, -194.500000) "></path>
+                    <path d="M194.054497,51.7730048 L194.054497,59.8857966 M194.054497,317.773005 L194.054497,336.773005" id="Shape" stroke="#9EA1A4" transform="translate(194.054497, 194.273005) rotate(27.000000) translate(-194.054497, -194.273005) "></path>
+                    <path d="M194,52 L194,71 M194,327.639195 L194,337" id="Shape" stroke="#9EA1A4" transform="translate(194.500000, 194.500000) rotate(38.000000) translate(-194.500000, -194.500000) "></path>
+                    <path d="M194.17197,51.6226452 L194.17197,59.8357535 M194.17197,317.622645 L194.17197,336.622645" id="Shape" stroke="#9EA1A4" transform="translate(194.171970, 194.122645) rotate(49.000000) translate(-194.171970, -194.122645) "></path>
+                    <path d="M194,52 L194,71 M194,327.525934 L194,337" id="Shape" stroke="#9EA1A4" transform="translate(194.500000, 194.500000) rotate(60.000000) translate(-194.500000, -194.500000) "></path>
+                    <path d="M194.337216,51.5272407 L194.337216,61.2024448 M194.337216,317.527241 L194.337216,336.527241" id="Shape" stroke="#9EA1A4" transform="translate(194.337216, 194.027241) rotate(71.000000) translate(-194.337216, -194.027241) "></path>
+                    <path d="M194,52 L194,71 M194,327.720501 L194,337" id="Shape" stroke="#9EA1A4" transform="translate(194.500000, 194.500000) rotate(82.000000) translate(-194.500000, -194.500000) "></path>
+                    <path d="M194.526168,51.5006852 L194.526168,61.3420882 M194.526168,317.500685 L194.526168,336.500685" id="Shape" stroke="#9EA1A4" transform="translate(194.526168, 194.000685) rotate(93.000000) translate(-194.526168, -194.000685) "></path>
+                    <path d="M194,52 L194,71 M194,328.136719 L194,337" id="Shape" stroke="#9EA1A4" transform="translate(194.500000, 194.500000) rotate(104.000000) translate(-194.500000, -194.500000) "></path>
+                    <path d="M194.711309,51.5468461 L194.711309,61.3814442 M194.711309,317.546846 L194.711309,336.546846" id="Shape" stroke="#9EA1A4" transform="translate(194.711309, 194.046846) rotate(115.000000) translate(-194.711309, -194.046846) "></path>
+                    <path d="M194,52 L194,71 M194,318 L194,324.706249 M194,331.506983 L194,337" id="Shape" stroke="#9EA1A4" transform="translate(194.500000, 194.500000) rotate(126.000000) translate(-194.500000, -194.500000) "></path>
+                    <g id="Icon/Porta-Copy-4" transform="translate(87.045163, 115.818510) rotate(-55.000000) translate(-87.045163, -115.818510) translate(83.545163, 112.318510)" fill="#A1A9B4" fill-rule="nonzero">
+                        <rect id="Rectangle" x="0" y="0" width="7" height="1"></rect>
+                        <rect id="Rectangle-Copy" x="0" y="5.5" width="7" height="1"></rect>
+                        <polygon id="Rectangle-Copy-8" points="0 2.7 2.8 2.7 2.8 3.7 0 3.7"></polygon>
+                        <polygon id="Rectangle-Copy-17" points="4.2 2.7 7 2.7 7 3.7 4.2 3.7"></polygon>
+                    </g>
+                    <path d="M194.865677,51.6590008 L194.865677,61.862517 M194.865677,327.552515 L194.865677,336.659001" id="Shape" stroke="#9EA1A4" transform="translate(194.865677, 194.159001) rotate(137.000000) translate(-194.865677, -194.159001) "></path>
+                    <path d="M124.444762,71.9446436 L124.444762,90.9446436" id="Shape" stroke="#9EA1A4" transform="translate(124.444762, 81.444644) rotate(148.000000) translate(-124.444762, -81.444644) "></path>
+                    <path d="M194,52 L194,71 M194,328.686821 L194,337" id="Shape" stroke="#9EA1A4" transform="translate(194.500000, 194.500000) rotate(159.000000) translate(-194.500000, -194.500000) "></path>
+                    <path d="M194.995134,51.9304134 L194.995134,61.5658735 M194.995134,317.930413 L194.995134,336.930413" id="Shape" stroke="#9EA1A4" transform="translate(194.995134, 194.430413) rotate(172.000000) translate(-194.995134, -194.430413) "></path>
+                </g>
+                <line x1="380.544392" y1="480" x2="380.544392" y2="475" id="Path-Copy-12" stroke="#9EA1A4"></line>
+                <line x1="536.544392" y1="480" x2="536.544392" y2="475" id="Path-Copy-13" stroke="#9EA1A4"></line>
+                <line x1="224.544392" y1="480" x2="224.544392" y2="475" id="Path-Copy-7" stroke="#9EA1A4"></line>
+                <polyline id="Path-Copy-10" stroke="#FFFFFF" opacity="0.5" stroke-linecap="square" points="70.0443922 363 10.0443922 362.908408 10.5443922 241"></polyline>
+                <polyline id="Path-Copy-4" stroke="#9EA1A4" points="12.0443922 73 70.5422645 73 71.0443922 480.5"></polyline>
+                <polygon id="Rectangle-Copy-114" fill="#FFFFFF" opacity="0.5" transform="translate(6.180949, 73.073045) scale(-1, 1) rotate(-315.000000) translate(-6.180949, -73.073045) " points="3.19032493 68.8893001 10.3618978 76.060873 3.10141157 77.2567889 2 76.1158435"></polygon>
+                <polygon id="Rectangle-Copy-115" fill="#FFFFFF" opacity="0.5" transform="translate(10.337285, 238.771068) scale(1, -1) rotate(-45.000000) translate(-10.337285, -238.771068) " points="7.45860573 234.478175 14.6301786 241.649747 6.04439216 243.063961"></polygon>
+                <path d="M536.044392,441 L536.044392,424.5 M536.044392,409 L536.044392,392.25 L484.544392,337 C482.483766,337.083309 481.150433,336.749976 480.544392,336 C479.938351,335.250024 479.938351,333.916691 480.544392,332 L471.044392,320.5 C469.140703,320.365019 467.974037,320.031685 467.544392,319.5 C467.114748,318.968315 467.114748,317.468315 467.544392,315 L460.375991,306.872854 C457.886652,306.45063 456.442786,305.993012 456.044392,305.5 C455.645998,305.006988 455.483325,303.634847 455.556373,301.383576 L447.044392,291 C445.11078,290.832854 443.944114,290.499521 443.544392,290 C443.144671,289.500479 443.144671,288.167146 443.544392,286 L436.044392,277" id="Shape" stroke="#F0F0F0" stroke-width="1.5"></path>
+                <path d="M223.544392,441.5 L223.544392,425.5 M223.544392,411 L223.544392,395.5 L263.044392,345" id="Shape" stroke="#F0F0F0" stroke-width="1.5"></path>
+                <line x1="71.5443922" y1="480" x2="537.044392" y2="480" id="Path-Copy" stroke="#9EA1A4"></line>
+                <path d="M379.544392,441.496542 L379.499232,425 M379.521812,409.034989 L379.521812,391.268704 L379.521812,380 C378.188479,378.5 377.521812,377.333333 377.521812,376.5 C377.521812,375.666667 378.188479,374.5 379.521812,373 L379.521812,358.5 C378.188479,357.583569 377.521812,356.583569 377.521812,355.5 C377.521812,354.416431 378.188479,353.249764 379.521812,352 L379.521812,338" id="Shape" stroke="#F0F0F0" stroke-width="1.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+@Library('SharedPipelines') _
+
+CI_React {
+  MICROSERVICE_NAME = 'tel-react-portal'
+  CONTEXT_DIR = 'sources/tel_react-portal'
+}
