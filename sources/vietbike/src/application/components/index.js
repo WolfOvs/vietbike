@@ -23,9 +23,11 @@ import ModalThresholds from './modalThresholds';
 import TrendModalCard from './trendModalCard';
 import TrendModalDownload from './trendModalDownload';
 import TrendsListArchive from './trendsListArchive';
+import Footer from './footer';
+import Header from './header';
 
 export { 
-  Page,
+    Page,
 	Map,
 	Sidebar,
 	Station,
@@ -47,5 +49,7 @@ export {
 	ModalThresholds,
 	TrendModalCard,
 	TrendModalDownload,
-	TrendsListArchive
+	TrendsListArchive,
+	Footer,
+	Header
 }

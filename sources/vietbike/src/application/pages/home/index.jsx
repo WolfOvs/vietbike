@@ -1,24 +1,32 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-
-import {
-	Breadcrumb,
-	BreadcrumbWithActionBar,
-	Button,
-	Modal
-} from "../../ui";
-import { WrapperBtn, NotificationCount } from './style';
-import { Page, Map } from "../../components";
-import { getStationsList } from "../../../redux/actions/stations";
-import { getSetLimiti } from '../../../redux/actions/limiti';
+import { Footer, Header } from "../../components";
+import { HomeContainer, BoxRedirect, ContainerCards, Circle } from './style';
+import Sell from './sell.jpg';
+import Buy from './buy.jpg';
 
 function Home(props) {
 	//Props
 	const { stations, match, title, token, pipelines, centers, dispatchSetLimiti, setLimiti, dispatchGetStationsList, updatedStations } = props;
 
 	return (
-		<div>ciao</div>
+		<HomeContainer>
+			<Header />
+			<ContainerCards>
+				<BoxRedirect
+					img={Sell}
+				>
+					<Circle>Sell</Circle>
+				</BoxRedirect>
+				<BoxRedirect
+					img={Buy}
+				>
+					<Circle>Buy</Circle>
+				</BoxRedirect>
+			</ContainerCards>
+			<Footer />
+		</HomeContainer>
 	);
 }
 

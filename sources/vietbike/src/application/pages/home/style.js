@@ -1,5 +1,56 @@
 import styled from 'styled-components';
 
+const ContainerCards = styled.div`
+	display:flex;
+
+	@media(max-width: 768px) {
+		display:block;
+	}
+`;
+
+const Circle = styled.div`
+	width:150px;
+	height:150px;
+	border-radius:100%;
+	text-align:center;
+	background-color:#fff;
+	line-height: 150px;
+	font-family: 'Nunito', sans-serif;
+	font-weight:700;
+	position: absolute;
+    bottom: 40px;
+	right: 40px;
+	
+	animation: pulse 1s infinite;
+
+	@media(max-width: 768px) {
+		display:block;
+	}
+`;
+
+const BoxRedirect = styled.div`
+	color: ${props => props.theme.colors.vietRed};
+	font-size:50px;
+	text-align:center;
+	background-color: #fff;
+	width:50%;
+	background: ${props => `url(${props.img}) no-repeat top center`};
+	background-size:cover;
+	height: calc(100vh - 200px);
+	position:relative;
+
+	@media(max-width: 768px) {
+		width:100%;
+		height: calc(50vh - 51px);
+	}
+`;
+
+const HomeContainer = styled.div`
+	background-color: ${props => props.theme.colors.vietGreen};
+	font-size:16px;
+	height:100vh;
+`;
+
 const ContainerFilters = styled.div`
 	position: absolute;
 	width: 100%;
@@ -40,6 +91,10 @@ const NotificationCount = styled.div`
 `;
 
 export {
+	HomeContainer,
+	Circle,
+	BoxRedirect,
+	ContainerCards,
 	ContainerFilters,
 	WrapperBtn,
 	NotificationCount

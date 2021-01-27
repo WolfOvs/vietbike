@@ -56,7 +56,10 @@ const colors = {
   colorError: '#cf0000',
   colorWarning: '#d17000',
   colorSuccess: '#41d000',
-  colorGreyLight: '#989ca0'
+  colorGreyLight: '#989ca0',
+
+  vietRed: '#da251d',
+  vietGreen: '#0d670f'
 };
 
 export default colors;
