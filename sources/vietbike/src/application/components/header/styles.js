@@ -12,6 +12,7 @@ const Logo = styled.div`
 	text-align:center;
 	padding: 25px;
     background-color: #fff;
+    cursor:pointer;
 
     @media(max-width: 768px) {
         font-size:30px;

@@ -2,47 +2,44 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { Footer, Header } from "../../components";
-import { HomeContainer, BoxRedirect, ContainerCards, Circle, Disclaimer } from './style';
-import Sell from './sell.jpg';
-import Buy from './buy.jpg';
+import { HomeContainer, Banner, InputSearch, ContainerCards, Circle, Disclaimer } from './style';
+import skyline from './skyline.jpg';
 
-function Home(props) {
-	const { } = props;
-	console.log(props)
-
+function Buy(props) {
+	//Props
+    const { } = props;
+    console.log(props)
 	return (
 		<HomeContainer>
-			<Header />
-			<ContainerCards>
-				<BoxRedirect
-					img={Sell}
-				>
-					<Circle>Sell</Circle>
-					<Disclaimer>Relax, we will help you</Disclaimer>
-				</BoxRedirect>
-				<BoxRedirect
-					img={Buy}
-					onClick={() => {props.history.push({
-						pathname: `/buy`,	
+            <div onClick={() => {props.history.push({
+						pathname: `/`,	
 						props: props
                         });
-                    }} 
-				>
-					<Circle>Buy</Circle>
-					<Disclaimer>Easy like to choose a fish</Disclaimer>
-				</BoxRedirect>
-			</ContainerCards>
-			<Footer />
+                    }} >
+				<Header />
+			</div>
+            <Banner 
+                img={skyline}
+            />
+            <div className="container">
+                <div className="row">
+                    <InputSearch placeholder="Search by model, price, city..." />
+                </div>
+                <div className="row">
+                    cards....
+                </div>
+            </div>
+			
 		</HomeContainer>
 	);
 }
 
-Home.propTypes = {
+Buy.propTypes = {
 	stations: PropTypes.object,
 	side: PropTypes.string
 };
 
-Home.defaultProps = {
+Buy.defaultProps = {
 	stations: {},
 	side: 'left'
 };
@@ -61,4 +58,4 @@ export default connect(
 			// dispatchGetStationsList: (clientId, tokenAD) => dispatch(getStationsList(clientId, tokenAD)),
 		};
 	}
-)(Home);
+)(Buy);

@@ -10,7 +10,7 @@ import config from './config/api-config';
 
 //Principal page
 const Home = React.lazy(() => import('./application/pages/home'));
-const Login = React.lazy(() => import('./application/pages/login'));
+const Buy = React.lazy(() => import('./application/pages/buy'));
 const Details = React.lazy(() => import('./application/pages/details'));
 const PageNotFound = React.lazy(() => import('./application/pages/pageNotFound'));
 
@@ -41,29 +41,16 @@ function App(props) {
 											/>
 										)}
 									/>
-									{/* <Route
-										path={routes.login.path}
+									<Route
+										path={routes.buy.path}
 										exact
 										render={props => (
-											<Login
+											<Buy
 												{...props}
 												title={routes.login.title}
 											/>
 										)}
 									/>
-									<Route
-										path={routes.detail.path}
-										exact
-										render={props => (
-											<Details
-												{...props}
-												title={routes.detail.title}
-												stations={stations}
-												login={userLogin}
-												changeStations={changeStationsData}
-											/>
-										)}
-									/> */}
 									<Route path="*" render={() => <PageNotFound />} />
 								</Switch>
 							</BrowserRouter>

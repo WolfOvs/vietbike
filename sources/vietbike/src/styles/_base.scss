@@ -88,3 +88,12 @@ a {
 	overflow-y: hidden;
 	max-width: 70%;
 }
+
+.container {
+	width:100%;
+}
+
+.row {
+	display:flex;
+	padding:0 20px;
+}

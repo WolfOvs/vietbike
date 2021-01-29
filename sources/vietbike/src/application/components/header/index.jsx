@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 import { HeaderContainer, Logo, Login } from './styles';
 
 const Header = () => {
-
 	return (
 		<HeaderContainer>
-            <Logo>GoVietBike</Logo>
+            <Logo>
+                GoVietBike
+            </Logo>
             <Login>Login</Login>
         </HeaderContainer>
 	)

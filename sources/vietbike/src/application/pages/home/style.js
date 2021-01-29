@@ -8,6 +8,16 @@ const ContainerCards = styled.div`
 	}
 `;
 
+const Disclaimer = styled.div`
+	color:#fff;
+	font-size:20px;
+	position:absolute;
+	bottom: 20px;
+	right: 20px;
+	background-color:#000;
+	padding:5px;
+`;
+
 const Circle = styled.div`
 	width:150px;
 	height:150px;
@@ -19,7 +29,7 @@ const Circle = styled.div`
 	font-weight:700;
 	position: absolute;
     bottom: 40px;
-	right: 40px;
+	left: 40px;
 	
 	animation: pulse 1s infinite;
 
@@ -29,6 +39,7 @@ const Circle = styled.div`
 `;
 
 const BoxRedirect = styled.div`
+	cursor:pointer;
 	color: ${props => props.theme.colors.vietRed};
 	font-size:50px;
 	text-align:center;
@@ -97,5 +108,6 @@ export {
 	ContainerCards,
 	ContainerFilters,
 	WrapperBtn,
-	NotificationCount
+	NotificationCount,
+	Disclaimer
 }
